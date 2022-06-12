@@ -7,6 +7,9 @@ The repo is for editors only. Readers should go to https://zhiqingxiao.github.io
 - Abbreviation: "Deep Q Newtork" -> "Deep Q Network"
 
 - Code 2-4 ~ Code 2-6, URL: The same as the URL of Code 2-3.
+
+I am also considering that we may remove all URLs, since the URLs are also maintained in GitHub repo. But let us deal with this in a consistent way.
+
 - Code 3-6, URL: the same as the URL of Code 3-5
 - Code 5-6, Code: Please take care of the line change here:
 
