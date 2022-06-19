@@ -4,6 +4,10 @@ The repo is for editors only. Readers should go to https://zhiqingxiao.github.io
 
 (It is being updated.)
 
+- Section 2.5.1, Second Paragraph:  "checked" -> "checks"
+
+=====
+
 - Abbreviation: "Deep Q Newtork" -> "Deep Q Network"
 
 - Code 2-4 ~ Code 2-6, URL: The same as the URL of Code 2-3.
