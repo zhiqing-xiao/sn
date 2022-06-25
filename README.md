@@ -4,6 +4,10 @@ The repo is for editors only. Readers should go to https://zhiqingxiao.github.io
 
 (It is being updated.)
 
+- Code 3-9, Line 6: update state function -> update state value
+
+=====
+
 - Section 2.5.1, Second Paragraph:  "checked" -> "checks"
 
 =====
