@@ -4,7 +4,7 @@ The repo is for editors only. Readers should go to https://zhiqingxiao.github.io
 
 (It is being updated.)
 
-- Section 1.6.1, end of Note: in the very beginning. -> in the very beginning. Gym with Box2D requires swig. The guide to install swig can be found in the GitHub repo.
+- Section 1.6.1, before Note, add a new paragraph: The complete guide of installation can be found in GitHub repo.
 - Code 3-9, Line 6: update state function -> update state value
 
 =====
