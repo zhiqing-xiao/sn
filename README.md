@@ -4,6 +4,16 @@ The repo is for editors only. Readers should go to https://zhiqingxiao.github.io
 
 (It is being updated.)
 
+- Section 1.6.3, Code 1-7, Line 3: remove the line `env.seed(0)`.
+- Section 2.5.1, Code 2-3, Line 4: remove the line `env.seed(0)`.
+- Section 3.5.1, first code block, Line 3: remove the line `env.seed(0)`.
+- Section 6.5.1, Code 6-1, Line 2: remove the line `import m`.
+- Section 6.5.1, Code 6-1, Line 4: remove the line `env.seed(0)`.
+
+The function `env.seed()` is just deprecated in the latest version of Gym. The function does still work at the moment, but not recommended. So I suggest remove its usages.
+
+=====
+
 - Section 1.6.1, before Note, add a new paragraph: The complete guide of installation can be found in GitHub repo.
 - Code 3-9, Line 6: update state function -> update state value
 
