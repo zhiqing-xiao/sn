@@ -6,7 +6,7 @@
 
 - Section 2.3.4, Paragraph 2: Change 【 many statistics can be represented using the  notation of expected over distribution.】 to 【many statistics can be represented using the  notation of expected over discounted distribution.】 Add a word "discounted".
 
-- Section 2.4.3, the first item group, the first item: Change 【Therefore, $\pi_* < \pi'$, which conflicts】to 【Therefore, $\pi_* \preceq \pi'$, which conflicts】.
+- Section 2.4.3, the first item group, the first item: Change 【Therefore, $\pi_* < \pi'$, which conflicts】to 【Therefore, $\pi_* \prec \pi'$, which conflicts】.
 
 ----
 
