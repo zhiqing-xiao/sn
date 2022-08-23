@@ -4,6 +4,8 @@
 
 - Section 2.3.2: An item start with 【Use state-action distribution at time $t$ to back up the state-action distribution at time $t+1$:】, in the proof, first parentheses, change 【 $\mathsf{s}' in \mathcal{S}$ 】 to 【 $\mathsf{s} in \mathcal{S}$ 】. (remove the ')
 
+- Section 2.3.4, Paragraph 2: Change 【 many statistics can be represented using the  notation of expected over distribution.】 to 【many statistics can be represented using the  notation of expected over discounted distribution.】 Add a word "discounted".
+
 ----
 
 The repo is for editors only. Readers should go to https://zhiqingxiao.github.io/rl-book/en2022
