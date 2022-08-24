@@ -8,6 +8,8 @@
 
 - Section 2.4.3, the first item group, the first item: Change 【Therefore, $\pi_* < \pi'$, which conflicts】to 【Therefore, $\pi_* \prec \pi'$, which conflicts】.
 
+- Section 3.1, the paragraph after "Interdisciplinary Reference 3-2", the formula after the line "Therefore". Please take care whether there are extra period ".". (There may be or may not be, I am not sure.)
+
 ----
 
 The repo is for editors only. Readers should go to https://zhiqingxiao.github.io/rl-book/en2022
