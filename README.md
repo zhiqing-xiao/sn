@@ -12,6 +12,8 @@
 
 - Section 4.1.2, the paragraph before Algo. 4-5: Change 【Step 2.5.3】 to 【Step 2.5.2】  (three times in this paragraph).
 
+- Section 13.3: In a line between two formula, change 【Due to the selection method of $\mathsf{A}_t$,】 to 【Due to the selection method of $\mathsf{A}_{\kappa,t}$,】 (add things to the subscript.)
+
 ----
 
 The repo is for editors only. Readers should go to https://zhiqingxiao.github.io/rl-book/en2022
