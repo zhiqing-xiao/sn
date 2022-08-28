@@ -17,6 +17,8 @@
 
 - Section 13.3: In a line between two formula, change 【Due to the selection method of `$\mathsf{A}_t$`,】 to 【Due to the selection method of `$\mathsf{A}_{\kappa,t}$`,】 (add things to the subscript.)
 
+- Section 15.2, the first paragraph, there is an inline equation may have additional "," at the right side.
+
 - Section 16.1.2, first paragraph, change 【its average reward `$r_\pi$`.】 to 【its average reward `$\bar{r}_pi$`.】 .
 
 - Section 16.1.2, first bullet item: change 【`$r_\pi$`】 to 【`$\bar{r}_pi$`】(two occurances, the first one is in the end of the inline equation, the second one is at the end of this point.)
