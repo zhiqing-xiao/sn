@@ -6,7 +6,7 @@
 
 - Section 2.3.4, Paragraph 2: Change 【 many statistics can be represented using the  notation of expected over distribution.】 to 【many statistics can be represented using the  notation of expected over discounted distribution.】 Add a word "discounted".
 
-- Section 2.4.3, the first item group, the first item: Change 【Therefore, $\pi_\ast < \pi'$, which conflicts】to 【Therefore, $\pi_\ast \prec \pi'$, which conflicts】.
+- Section 2.4.3, the first item group, the first item: Change 【Therefore, $\pi_\ast<\pi'$, which conflicts】to 【Therefore, $\pi_\ast\prec\pi'$, which conflicts】.
 
 - Section 3.1, the paragraph after "Interdisciplinary Reference 3-2", the formula after the line "Therefore". Please take care whether there are extra period ".". (There may be or may not be, I am not sure.)
 
@@ -24,7 +24,8 @@
 
 - Section 16.1.2, the paragraph starts with "The way to use differential values to calculate average reward is", change 【`$r_\pi$`】  to 【`$\bar{r}_\pi$`】 (4 occurances in total). The first equation group will become 【 `${{\bar r}_\pi } = \sum\limits_\mathsf{a} {\pi \left( {\mathsf{a}|\mathsf{s}} \right)\sum\limits_{\mathsf{s'}} {p\left( {\mathsf{s'}|\mathsf{s},\mathsf{a}} \right)} \left[ {r\left( {\mathsf{s},\mathsf{a},\mathsf{s'}} \right) - {{\tilde v}_\pi }\left( \mathsf{s} \right) + {{\tilde v}_\pi }\left( {\mathsf{s'}} \right)} \right]} , & \mathsf{s} \in {\cal S}, {{\bar r}_\pi } = \sum\limits_{\mathsf{s'},r} {p\left( {\mathsf{s'},r|\mathsf{s},\mathsf{a}} \right)\sum\limits_{\mathsf{a'}} {\pi \left( {\mathsf{a'}|\mathsf{s'}} \right)\left[ {r - {{\tilde q}_\pi }\left( {\mathsf{s},\mathsf{a}} \right) + {{\tilde q}_\pi }\left( {\mathsf{s'},\mathsf{a'}} \right)} \right]} } , & \mathsf{s} \in {\cal S},\mathsf{a} \in {\cal A}$`.】 The second equation group will change from 【`${\tilde v_\pi }\left( \mathsf{s} \right) = \sum\limits_\mathsf{a} {\pi \left( {\mathsf{a}|\mathsf{s}} \right)\sum\limits_{\mathsf{s'}} {p\left( {\mathsf{s'}|\mathsf{s},\mathsf{a}} \right)} \left[ {r\left( {\mathsf{s},\mathsf{a},\mathsf{s'}} \right) - {r_\pi } + {{\tilde v}_\pi }\left( {\mathsf{s'}} \right)} \right]} ,\quad \mathsf{s} \in {\cal S}$`】to【`${\tilde v_\pi }\left( \mathsf{s} \right) = \sum\limits_\mathsf{a} {\pi \left( {\mathsf{a}|\mathsf{s}} \right)\sum\limits_{\mathsf{s'}} {p\left( {\mathsf{s'}|\mathsf{s},\mathsf{a}} \right)} \left[ {r\left( {\mathsf{s},\mathsf{a},\mathsf{s'}} \right) - {\bar{r}_\pi } + {{\tilde v}_\pi }\left( {\mathsf{s'}} \right)} \right]} ,\quad \mathsf{s} \in {\cal S}$`】. The third equation group will change from 【`${\tilde q_\pi }\left( {\mathsf{s},\mathsf{a}} \right) = \sum\limits_{\mathsf{s'},r} {p\left( {\mathsf{s'},r|\mathsf{s},\mathsf{a}} \right)\sum\limits_{\mathsf{a'}} {\pi \left( {\mathsf{a'}|\mathsf{s'}} \right)\left( {r - {r_\pi } + {{\tilde q}_\pi }\left( {\mathsf{s'},\mathsf{a'}} \right)} \right)} } ,\quad \mathsf{s} \in {\cal S},\mathsf{a} \in {\cal A}$`】 to【`${\tilde q_\pi }\left( {\mathsf{s},\mathsf{a}} \right) = \sum\limits_{\mathsf{s'},r} {p\left( {\mathsf{s'},r|\mathsf{s},\mathsf{a}} \right)\sum\limits_{\mathsf{a'}} {\pi \left( {\mathsf{a'}|\mathsf{s'}} \right)\left( {r - {\bar{r}_\pi } + {{\tilde q}_\pi }\left( {\mathsf{s'},\mathsf{a'}} \right)} \right)} } ,\quad \mathsf{s} \in {\cal S},\mathsf{a} \in {\cal A}$`】.
 
-
+- Section 16.6.2, the paragraph before Code 16-2: change 【Another is `TigerEnv1000-v0`, which mimics the sequential case by setting the maximum steps of the episode to a very large number 1000.】to 【Another is `TigerEnv200-v0`, which mimics the sequential case by setting the maximum steps of the episode to a very large number 200.】 (Change two 1000 to 200.)
+ 
 ----
 
 The repo is for editors only. Readers should go to https://zhiqingxiao.github.io/rl-book/en2022
