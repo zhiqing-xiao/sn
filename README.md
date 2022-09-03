@@ -1,4 +1,4 @@
-
+- Section 1.2, Fig. 1-4, caption: Change 【`https://www.gymlibrary.ml/pages/environments/box2d/bipedal_walker`】 to 【`https://www.gymlibrary.dev/environments/box2d/bipedal_walker/`】
 - Section 2.1.4, paragraph 5: change from 【 For episodic tasks, let $R_t=0$ for $t>T$. The discount factor of episodic tasks is usually $\gamma \in \left(0,1\right]$. We will use this unified notation throughout the book. 】 to 【 For episodic tasks, let $R_t=0$ for $t>T$. In fact, the discount factor of an episodic task can also be $<1$. Consequently, discount factor of an episodic task is usually $\gamma \in \left(0,1\right]$, while discount factor of a sequential task is usually $\gamma \in \left(0,1\right)$. We will use this unified notation throughout the book. 】(The first and last sentense remain unchanged. The middle sentense is extended. Previous statement is misleading.)
 - Section 2.3.2: An item start with 【Use state-action distribution at time $t$ to back up the state-action distribution at time $t+1$:】, in the proof, first parentheses, change 【 $\mathsfit{s}' \in \mathcal{S}$ 】 to 【 $\mathsfit{s} \in \mathcal{S}$ 】. (remove the ' on $\mathsfit{s}$.)
 - Section 2.3.4, Paragraph 2: Change 【 many statistics can be represented using the  notation of expected over distribution.】 to 【many statistics can be represented using the  notation of expected over discounted distribution.】 Add a word "discounted".
@@ -7,6 +7,7 @@
 - Section 4.1.2, the paragraph before Algo. 4-5: Change 【Step 2.5.3】 to 【Step 2.5.2】  (three times in this paragraph).
 - Section 6.2.1, Interdisciplinary Reference 6-1, the third paragraph, change 【(Zhiqing, 2018)】 to 【(Xiao, 2018)】.
 - Section 8.2.2, Algo. 8-3. Please help check the format consistency (especially the intent) between Step 3.1 and Step 3.2.
+- Section 12.6.1, Fig. 12-1, caption: Change 【`https://www.gymlibrary.ml/pages/environments/atari/`】 to 【`https://www.gymlibrary.dev/environments/atari/complete_list/`】
 - Section 13.3: In a line between two formula, change 【Due to the selection method of $\mathsfit{A}_t$ ,】 to 【Due to the selection method of ` $\mathsfit{A}_{\kappa,t}$ `,】 (add " $\kappa,$ " to the subscript . GitHub has some render issue here.)
 - Section 15.2, the first paragraph, there is an inline equation may have additional "," at the right side.
 - Section 16.1.2, first paragraph, change 【its average reward $r_\pi$.】 to 【its average reward $\bar{r}_\pi$.】 .
