@@ -7,6 +7,28 @@
 - Section 1.6.2, Gym Internal 1-5, The second paragraph: Change 【The parameters of the constructor of the class `Wrapper` are the environment object `env` and the parameter `new_step_api` to control the return format of the member function `step()`.】 to 【The parameter of the constructor of the class `Wrapper` is the environment object `env`.】.
 - Section 1.6.2, Code 1-5, Codes: Change 【
 ```
+    def __init__(self, env: Env, new_step_api: bool=False):
+        self.env = env
+
+        self._action_space: Optional[spaces.Space] = None
+        self._observation_space: Optional[spaces.Space] = None
+        self._reward_range: Optional[Tuple[SupportsFloat, SupportsFloat]] = None
+        self._metadata: Optional[dict] = None
+        self.new_step_api = new_step_api
+```
+】 to 【
+```
+    def __init__(self, env: Env):
+        self.env = env
+
+        self._action_space: Optional[spaces.Space] = None
+        self._observation_space: Optional[spaces.Space] = None
+        self._reward_range: Optional[Tuple[SupportsFloat, SupportsFloat]] = None
+        self._metadata: Optional[dict] = None
+```
+】
+- Section 1.6.2, Code 1-5, Codes: Change 【
+```
     def step(self, action: ActType) -> Union[tuple[ObsType, float, bool, bool,
             dict], tuple[ObsType, float, bool, dict]]:
         """Steps through the environment with action."""
@@ -17,7 +39,6 @@
     def reset(self, **kwargs) -> Union[ObsType, Tuple[ObsType, dict]]:
         """Resets the environment with kwargs."""
         return self.env.reset(**kwargs)
-
 ```
 】 to 【
 ```
@@ -28,7 +49,6 @@
     def reset(self, **kwargs) -> Tuple[ObsType, dict]:
         """Resets the environment with kwargs."""
         return self.env.reset(**kwargs)
-
 ```
 】
 - Section 1.6.2, Gym Internal 1-6, The first paragraph: Change 【the function `step()` returns `truncation` (new API) or `done` (old API) as `True`. The member `function step()` calls the function `step_api_compatibility()`, which converts the return to the new return format (5 return values) when `new_step_api = True`. and converts return format to the old return format (4 return values) when `new_step_api = False`.】 to 【the function `step()` returns `truncation` (new API) or `done` (old API) as `True`.】
@@ -57,7 +77,6 @@
 
         return step_api_compatibility((observation, reward, terminated,
                 truncated, info), self.new_step_api)
-
 ```
 】 to 【
 ```
