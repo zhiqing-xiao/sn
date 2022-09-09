@@ -4,6 +4,62 @@
 - Section 1.6.2, Paragraph 6: Change 【which returns the initial observation】 to 【which returns an initial observation and an information variable of the type `dict`.】
 - Section 1.6.2, Paragraph 8: Change 【For the API with `new_step_api = True`, this】 to 【This】.
 - Section 1.6.2, Paragraph 8: Remove 【The old API with `new_step_api = False` only has ... logical-or of `termination` and `truncation`.】.
+- Section 1.6.2, Code 1-5, Codes: Change 【
+```
+    def step(self, action: ActType) -> Union[tuple[ObsType, float, bool, bool,
+            dict], tuple[ObsType, float, bool, dict]]:
+        """Steps through the environment with action."""
+        from gym.utils.step_api_compatibility import step_api_compatibility
+                # avoid circular import
+        return step_api_compatibility(self.env.step(action), self.new_step_api)
+
+    def reset(self, **kwargs) -> Union[ObsType, Tuple[ObsType, dict]]:
+        """Resets the environment with kwargs."""
+        return self.env.reset(**kwargs)
+
+```
+】 to 【
+```
+    def step(self, action: ActType) -> tuple[ObsType, float, bool, dict]:
+        """Steps through the environment with action."""
+        return self.env.step(action)
+
+    def reset(self, **kwargs) -> Tuple[ObsType, dict]:
+        """Resets the environment with kwargs."""
+        return self.env.reset(**kwargs)
+
+```
+】
+- Section 1.6.2, Gym Internal 1-6, The first paragraph: Change 【the function `step()` returns `truncation` (new API) or `done` (old API) as `True`. The member `function step()` calls the function `step_api_compatibility()`, which converts the return to the new return format (5 return values) when `new_step_api = True`. and converts return format to the old return format (4 return values) when `new_step_api = False`.】 to 【the function `step()` returns `truncation` (new API) or `done` (old API) as `True`.】
+- Section 1.6.2, Code 1-6, Codes, Line 2: Remove the line 【`from gym.utils.step_api_compatibility import step_api_compatibility`】
+- Section 1.6.2, Code 1-6, Codes: Change 【
+```
+    def step(self, action):
+        """Steps through the environment and if the number of steps elapsed
+        exceeds ``max_episode_steps`` then truncate."""
+        observation, reward, terminated, truncated, info = \
+                step_api_compatibility(self.env.step(action), True)
+        self._elapsed_steps += 1
+
+        if self._elapsed_steps >= self._max_episode_steps:
+            truncated = True
+
+        return step_api_compatibility((observation, reward, terminated,
+                truncated, info), self.new_step_api)
+
+```
+】 to 【
+```
+    def step(self, action):
+        """Steps through the environment and if the number of steps elapsed
+        exceeds ``max_episode_steps`` then truncate."""
+        observation, reward, terminated, truncated, info = self.env.step(action)
+        self._elapsed_steps += 1
+        if self._elapsed_steps >= self._max_episode_steps:
+            truncated = True
+        return observation, reward, terminated, truncated, info
+```
+】
 - Section 1.6.3, Code 1-7, Codes, Line 2: Remove 【`, new_step_api=True`】.
 - Section 1.6.3, Code 1-9, Codes, Line 2: Change 【`observation = env.reset(seed=seed)`】 to 【`observation, _ = env.reset(seed=seed)`】.
 - Section 1.6.3, Code 1-11, Codes, Line 2: Remove 【`, new_step_api=True`】.
@@ -28,7 +84,6 @@
 - Section 8.2.2, Algo. 8-3. Please help check the format consistency (especially the intent) between Step 3.1 and Step 3.2.
 - Section 12.6.1, Fig. 12-1, caption: Change 【`https://www.gymlibrary.ml/pages/environments/atari/`】 to 【`https://www.gymlibrary.dev/environments/atari/complete_list/`】
 - Section 12.6.3, Code 12-3, Codes, Line 3: Remove the line 【from gym.utils.step_api_compatibility import step_api_compatibility】
-
 - Section 12.6.3, Code 12-3, Codes, Change 【
 ```
     def __init__(self, env: gym.Env, num_stack: int, lz4_compress: bool = False,
