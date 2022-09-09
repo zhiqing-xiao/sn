@@ -26,7 +26,7 @@
         self._reward_range: Optional[Tuple[SupportsFloat, SupportsFloat]] = None
         self._metadata: Optional[dict] = None
 ```
-】
+】 (remove the last parameter, and remove the last line of the codes.)
 - Section 1.6.2, Code 1-5, Codes: Change 【
 ```
     def step(self, action: ActType) -> Union[tuple[ObsType, float, bool, bool,
