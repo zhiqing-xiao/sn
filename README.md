@@ -4,6 +4,7 @@
 - Section 1.6.2, Paragraph 6: Change 【which returns the initial observation】 to 【which returns an initial observation and an information variable of the type `dict`.】
 - Section 1.6.2, Paragraph 8: Change 【For the API with `new_step_api = True`, this】 to 【This】.
 - Section 1.6.2, Paragraph 8: Remove 【The old API with `new_step_api = False` only has ... logical-or of `termination` and `truncation`.】.
+- Section 1.6.2, Gym Internal 1-5, The second paragraph: Change 【The parameters of the constructor of the class `Wrapper` are the environment object `env` and the parameter `new_step_api` to control the return format of the member function `step()`.】 to 【The parameter of the constructor of the class `Wrapper` is the environment object `env`.】.
 - Section 1.6.2, Code 1-5, Codes: Change 【
 ```
     def step(self, action: ActType) -> Union[tuple[ObsType, float, bool, bool,
@@ -20,7 +21,7 @@
 ```
 】 to 【
 ```
-    def step(self, action: ActType) -> tuple[ObsType, float, bool, dict]:
+    def step(self, action: ActType) -> Tuple[ObsType, float, bool, dict]:
         """Steps through the environment with action."""
         return self.env.step(action)
 
@@ -34,6 +35,16 @@
 - Section 1.6.2, Code 1-6, Codes, Line 2: Remove the line 【`from gym.utils.step_api_compatibility import step_api_compatibility`】
 - Section 1.6.2, Code 1-6, Codes: Change 【
 ```
+    def __init__(self, env: gym.Env, max_episode_steps: Optional[int]=None,
+            new_step_api: bool=False):
+        super().__init__(env, new_step_api)
+        if max_episode_steps is None and self.env.spec is not None:
+            max_episode_steps = env.spec.max_episode_steps
+        if self.env.spec is not None:
+            self.env.spec.max_episode_steps = max_episode_steps
+        self._max_episode_steps = max_episode_steps
+        self._elapsed_steps = None
+
     def step(self, action):
         """Steps through the environment and if the number of steps elapsed
         exceeds ``max_episode_steps`` then truncate."""
@@ -50,6 +61,15 @@
 ```
 】 to 【
 ```
+    def __init__(self, env: gym.Env, max_episode_steps: Optional[int]=None):
+        super().__init__(env)
+        if max_episode_steps is None and self.env.spec is not None:
+            max_episode_steps = env.spec.max_episode_steps
+        if self.env.spec is not None:
+            self.env.spec.max_episode_steps = max_episode_steps
+        self._max_episode_steps = max_episode_steps
+        self._elapsed_steps = None
+
     def step(self, action):
         """Steps through the environment and if the number of steps elapsed
         exceeds ``max_episode_steps`` then truncate."""
