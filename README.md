@@ -124,6 +124,7 @@
 - Section 6.5.1, Code 6-2, Codes, Line 2: Change 【`observation = env.reset()`】 to 【`observation, _ = env.reset()`】.
 - Section 8.2.2, Algo. 8-3. Please help check the format consistency (especially the intent) between Step 3.1 and Step 3.2.
 - Section 12.6.1, Fig. 12-1, caption: Change 【`https://www.gymlibrary.ml/pages/environments/atari/`】 to 【`https://www.gymlibrary.dev/environments/atari/complete_list/`】
+- Section 12.6.3, Paragraph 1: Change 【The wrapper class `AtariPreprocessing` is a wrapper class especially implemented for Atari games. Its functionalities include:】 to 【The wrapper class `AtariPreprocessing` and the wrapper class `FrameStack` are wrapper classes especially implemented for Atari games. Their functionalities include:】
 - Section 12.6.3, Code 12-3, Codes, Line 3: Remove the line 【from gym.utils.step_api_compatibility import step_api_compatibility】
 - Section 12.6.3, Code 12-3, Codes, Change 【
 ```
