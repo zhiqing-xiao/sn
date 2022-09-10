@@ -125,7 +125,125 @@
 - Section 8.2.2, Algo. 8-3. Please help check the format consistency (especially the intent) between Step 3.1 and Step 3.2.
 - Section 12.6.1, Fig. 12-1, caption: Change 【`https://www.gymlibrary.ml/pages/environments/atari/`】 to 【`https://www.gymlibrary.dev/environments/atari/complete_list/`】
 - Section 12.6.3, Paragraph 1: Change 【The wrapper class `AtariPreprocessing` is a wrapper class especially implemented for Atari games. Its functionalities include:】 to 【The wrapper class `AtariPreprocessing` and the wrapper class `FrameStack` are wrapper classes especially implemented for Atari games. Their functionalities include:】
-- Section 12.6.3, Code 12-3, Codes, Line 3: Remove the line 【from gym.utils.step_api_compatibility import step_api_compatibility】
+- Section 12.6.3, Code 12-2, Codes, Change 【
+```
+    def step(self, action):
+        R = 0.0
+
+        for t in range(self.frame_skip):
+            _, reward, done, info = self.env.step(action)
+            R += reward
+            self.game_over = done
+
+            if self.terminal_on_life_loss:
+                new_lives = self.ale.lives()
+                done = done or new_lives < self.lives
+                self.lives = new_lives
+
+            if done:
+                break
+            if t == self.frame_skip - 2:
+                if self.grayscale_obs:
+                    self.ale.getScreenGrayscale(self.obs_buffer[1])
+                else:
+                    self.ale.getScreenRGB(self.obs_buffer[1])
+            elif t == self.frame_skip - 1:
+                if self.grayscale_obs:
+                    self.ale.getScreenGrayscale(self.obs_buffer[0])
+                else:
+                    self.ale.getScreenRGB(self.obs_buffer[0])
+        return self._get_obs(), R, done, info
+
+    def reset(self, **kwargs):
+        if kwargs.get("return_info", False):
+            _, reset_info = self.env.reset(**kwargs)
+        else:
+            _ = self.env.reset(**kwargs)
+            reset_info = {}
+
+        # Reset with no-opers
+        noops = (self.env.unwrapped.np_random.integers(1, self.noop_max + 1)
+                if self.noop_max > 0 else 0)
+        for _ in range(noops):
+            _, _, done, step_info = self.env.step(0)
+            reset_info.update(step_info)
+            if done:
+                if kwargs.get("return_info", False):
+                    _, reset_info = self.env.reset(**kwargs)
+                else:
+                    _ = self.env.reset(**kwargs)
+                    reset_info = {}
+
+        self.lives = self.ale.lives()
+        if self.grayscale_obs:
+            self.ale.getScreenGrayscale(self.obs_buffer[0])
+        else:
+            self.ale.getScreenRGB(self.obs_buffer[0])
+        self.obs_buffer[1].fill(0)
+
+        if kwargs.get("return_info", False):
+            return self._get_obs(), reset_info
+        else:
+            return self._get_obs()
+```
+】 to 【
+```
+    def step(self, action):
+        """Applies the preprocessing for an :meth:`env.step`."""
+        total_reward, terminated, truncated, info = 0.0, False, False, {}
+
+        for t in range(self.frame_skip):
+            _, reward, terminated, truncated, info = self.env.step(action)
+            total_reward += reward
+            self.game_over = terminated
+
+            if self.terminal_on_life_loss:
+                new_lives = self.ale.lives()
+                terminated = terminated or new_lives < self.lives
+                self.game_over = terminated
+                self.lives = new_lives
+
+            if terminated or truncated:
+                break
+            if t == self.frame_skip - 2:
+                if self.grayscale_obs:
+                    self.ale.getScreenGrayscale(self.obs_buffer[1])
+                else:
+                    self.ale.getScreenRGB(self.obs_buffer[1])
+            elif t == self.frame_skip - 1:
+                if self.grayscale_obs:
+                    self.ale.getScreenGrayscale(self.obs_buffer[0])
+                else:
+                    self.ale.getScreenRGB(self.obs_buffer[0])
+        return self._get_obs(), total_reward, terminated, truncated, info
+
+    def reset(self, **kwargs):
+        """Resets the environment using preprocessing."""
+        # NoopReset
+        _, reset_info = self.env.reset(**kwargs)
+
+        noops = (
+            self.env.unwrapped.np_random.integers(1, self.noop_max + 1)
+            if self.noop_max > 0
+            else 0
+        )
+        for _ in range(noops):
+            _, _, terminated, truncated, step_info = self.env.step(0)
+            reset_info.update(step_info)
+            if terminated or truncated:
+                _, reset_info = self.env.reset(**kwargs)
+
+        self.lives = self.ale.lives()
+        if self.grayscale_obs:
+            self.ale.getScreenGrayscale(self.obs_buffer[0])
+        else:
+            self.ale.getScreenRGB(self.obs_buffer[0])
+        self.obs_buffer[1].fill(0)
+
+        return self._get_obs(), reset_info
+```
+】
+- Section 12.6.3, Code 12-3, Codes, Line 3: Remove the line 【`from gym.utils.step_api_compatibility import step_api_compatibility`】
 - Section 12.6.3, Code 12-3, Codes, Change 【
 ```
     def __init__(self, env: gym.Env, num_stack: int, lz4_compress: bool = False,
