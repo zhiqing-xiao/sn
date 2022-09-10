@@ -1,4 +1,6 @@
-- Section 1.2, Fig. 1-4, caption: Change 【`https://www.gymlibrary.ml/pages/environments/box2d/bipedal_walker`】 to 【`https://www.gymlibrary.dev/environments/box2d/bipedal_walker/`】
+(Feel free to contact Zhiqing for updated Word if you want it.)
+
+- Section 1.2, Fig. 1-4, caption: Change 【`https://www.gymlibrary.ml/pages/environments/box2d/bipedal_walker`】 to 【`https://www.gymlibrary.dev/environments/box2d/bipedal_walker/`】.
 - Section 1.6.2: Paragraph 3: Change 【`env = gym.make('CartPole-v0', new_step_api=True)`】 to 【`env = gym.make('CartPole-v0')`】. (Gym 0.26 released on 8 Sep 2022 removed this parameter.)
 - Section 1.6.2: Paragraph 3: Remove 【The parameters `new_step_api` controls the API. This book uses new API, so we set ..... between the old API and new API in the sequel.】
 - Section 1.6.2, Paragraph 6: Change 【which returns the initial observation】 to 【which returns an initial observation and an information variable of the type `dict`.】
