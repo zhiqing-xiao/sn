@@ -1,13 +1,14 @@
 (Feel free to contact Zhiqing for updated Word if you want it.)
 
 - Section 1.2, Fig. 1-4, caption: Change 【`https://www.gymlibrary.ml/pages/environments/box2d/bipedal_walker`】 to 【`https://www.gymlibrary.dev/environments/box2d/bipedal_walker/`】.
-- Section 1.6.2: Paragraph 3: Change 【`env = gym.make('CartPole-v0', new_step_api=True)`】 to 【`env = gym.make('CartPole-v0')`】. (Gym 0.26 released on 8 Sep 2022 removed this parameter.)
-- Section 1.6.2: Paragraph 3: Remove 【The parameters `new_step_api` controls the API. This book uses new API, so we set ..... between the old API and new API in the sequel.】
+- Section 1.6.2, Paragraph 3: Change 【`env = gym.make('CartPole-v0', new_step_api=True)`】 to 【`env = gym.make('CartPole-v0')`】. (Gym 0.26 released on 8 Sep 2022 removed this parameter.)
+- Section 1.6.2, Paragraph 3: Remove 【The parameters `new_step_api` controls the API. This book uses new API, so we set ..... between the old API and new API in the sequel.】
+- Section 1.6.2, Paragraph 5: Change 【`print([env_spec.id for env_spec in gym.envs.registry.all()])`】 to 【`print(gym.envs.registry)`】
 - Section 1.6.2, Paragraph 6: Change 【which returns the initial observation】 to 【which returns an initial observation and an information variable of the type `dict`.】
 - Section 1.6.2, Paragraph 8: Change 【For the API with `new_step_api = True`, this】 to 【This】.
 - Section 1.6.2, Paragraph 8: Remove 【The old API with `new_step_api = False` only has ... logical-or of `termination` and `truncation`.】.
 - Section 1.6.2, Gym Internal 1-5, The second paragraph: Change 【The parameters of the constructor of the class `Wrapper` are the environment object `env` and the parameter `new_step_api` to control the return format of the member function `step()`.】 to 【The parameter of the constructor of the class `Wrapper` is the environment object `env`.】.
-- Section 1.6.2, Code 1-5, Codes: Change 【
+- Section 1.6.2, Gym Internal 1-5, TCode 1-5, Codes: Change 【
 ```
     def __init__(self, env: Env, new_step_api: bool=False):
         self.env = env
@@ -29,7 +30,7 @@
         self._metadata: Optional[dict] = None
 ```
 】 (remove the last parameter, and remove the last line of the codes.)
-- Section 1.6.2, Code 1-5, Codes: Change 【
+- Section 1.6.2, Gym Internal 1-5, TCode 1-5, Codes: Change 【
 ```
     def step(self, action: ActType) -> Union[tuple[ObsType, float, bool, bool,
             dict], tuple[ObsType, float, bool, dict]]:
@@ -54,8 +55,8 @@
 ```
 】
 - Section 1.6.2, Gym Internal 1-6, The first paragraph: Change 【the function `step()` returns `truncation` (new API) or `done` (old API) as `True`. The member `function step()` calls the function `step_api_compatibility()`, which converts the return to the new return format (5 return values) when `new_step_api = True`. and converts return format to the old return format (4 return values) when `new_step_api = False`.】 to 【the function `step()` returns `truncation` (new API) or `done` (old API) as `True`.】
-- Section 1.6.2, Code 1-6, Codes, Line 2: Remove the line 【`from gym.utils.step_api_compatibility import step_api_compatibility`】
-- Section 1.6.2, Code 1-6, Codes: Change 【
+- Section 1.6.2, Gym Internal 1-6, Code 1-6, Codes, Line 2: Remove the line 【`from gym.utils.step_api_compatibility import step_api_compatibility`】
+- Section 1.6.2, Gym Internal 1-6, Code 1-6, Codes: Change 【
 ```
     def __init__(self, env: gym.Env, max_episode_steps: Optional[int]=None,
             new_step_api: bool=False):
@@ -125,7 +126,7 @@
 - Section 8.2.2, Algo. 8-3. Please help check the format consistency (especially the intent) between Step 3.1 and Step 3.2.
 - Section 12.6.1, Fig. 12-1, caption: Change 【`https://www.gymlibrary.ml/pages/environments/atari/`】 to 【`https://www.gymlibrary.dev/environments/atari/complete_list/`】
 - Section 12.6.3, Paragraph 1: Change 【The wrapper class `AtariPreprocessing` is a wrapper class especially implemented for Atari games. Its functionalities include:】 to 【The wrapper class `AtariPreprocessing` and the wrapper class `FrameStack` are wrapper classes especially implemented for Atari games. Their functionalities include:】
-- Section 12.6.3, Code 12-2, Codes, Change 【
+- Section 12.6.3, Gym Internal 12-1, Code 12-2, Codes, Change 【
 ```
     def step(self, action):
         R = 0.0
@@ -243,8 +244,8 @@
         return self._get_obs(), reset_info
 ```
 】
-- Section 12.6.3, Code 12-3, Codes, Line 3: Remove the line 【`from gym.utils.step_api_compatibility import step_api_compatibility`】
-- Section 12.6.3, Code 12-3, Codes, Change 【
+- Section 12.6.3, Gym Internal 12-2, Code 12-3, Codes, Line 3: Remove the line 【`from gym.utils.step_api_compatibility import step_api_compatibility`】
+- Section 12.6.3, Gym Internal 12-2, Code 12-3, Codes, Change 【
 ```
     def __init__(self, env: gym.Env, num_stack: int, lz4_compress: bool = False,
         new_step_api: bool = False):
