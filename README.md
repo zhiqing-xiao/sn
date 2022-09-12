@@ -258,7 +258,7 @@
 ```
 】
 
-- Section 12.6.3, Code 12-3, Codes, Change 【
+- Section 12.6.3, Gym Internal 12-2, Code 12-3, Codes, Change 【
 ```
     def step(self, action):
         observation, reward, terminated, truncated, info = \
