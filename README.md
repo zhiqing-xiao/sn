@@ -1,4 +1,4 @@
-(Feel free to contact Zhiqing for updated Word if you want it.)
+(Feel free to contact Zhiqing for updated Word if this may help.)
 
 - Section 1.2, Fig. 1-4, caption: Change 【`https://www.gymlibrary.ml/pages/environments/box2d/bipedal_walker`】 to 【`https://www.gymlibrary.dev/environments/box2d/bipedal_walker/`】.
 - Section 1.6.2, Paragraph 3: Change 【`env = gym.make('CartPole-v0', new_step_api=True)`】 to 【`env = gym.make('CartPole-v0')`】. (Gym 0.26 released on 8 Sep 2022 removed this parameter.)
@@ -275,11 +275,23 @@
 】
 
 - Section 12.6.3, Code 12-4, Codes, Line 1: Remove 【`, new_step_api=True`】.
-- Section 13.3: In a line between two formula, change 【Due to the selection method of $\mathsfit{A}_t$ ,】 to 【Due to the selection method of ` $\mathsfit{A}_{\kappa,t}$ `,】 (add " $\kappa,$ " to the subscript . GitHub has some render issue here.)
+- Section 13.3: In a line between two formula, change 【Due to the selection method of $\mathsfit{A}_t$ ,】 to 【
+
+Due to the selection method of $\mathsfit{A}_{\kappa,t}$ ,】 (add " $\kappa,$ " to the subscript.)
 - Section 13.4.1, Code 13.1, Codes, Line 8: Change 【`rand(n)`】 to 【`random(n)`】.
 - Section 13.4.1, Code 13.1, Codes, Line 10: Remove 【`return_info=False, `】.
 - Section 13.4.1, Code 13.1, Codes, Line 12: Change 【`return np.empty(0, dtype=float)`】 to 【`return np.empty(0, dtype=float), {}`】.
 - Section 14.3.1, Code 14.5, Codes, Line 1: Change 【`return_info=False`】 to  【`return_info=True`】.
+- Section 14.3.1, Code 14-5, Codes, the last function: Change 【
+```
+def render(self, mode='human'):
+```
+】 to 【
+```
+def render(self):
+    mode = self.render_mode
+```
+】
 - Section 14.3.2, Code 14-7, Codes, Line 2: Change 【`observation, winner = env.reset(), 0`】 to 【`observation, _ = env.reset()`】.
 - Section 14.3.3, Code 14-7, Codes, Line 3: Change 【`termination, truncation = False, False`】 to 【`winner, termination, truncation = 0, False, False`】.
 - Section 15.2, the first paragraph, there is an inline equation may have additional "," at the right side.
