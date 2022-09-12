@@ -8,7 +8,7 @@
 - Section 1.6.2, Paragraph 8: Change 【For the API with `new_step_api = True`, this】 to 【This】.
 - Section 1.6.2, Paragraph 8: Remove 【The old API with `new_step_api = False` only has ... logical-or of `termination` and `truncation`.】.
 - Section 1.6.2, Gym Internal 1-5, The second paragraph: Change 【The parameters of the constructor of the class `Wrapper` are the environment object `env` and the parameter `new_step_api` to control the return format of the member function `step()`.】 to 【The parameter of the constructor of the class `Wrapper` is the environment object `env`.】.
-- Section 1.6.2, Gym Internal 1-5, TCode 1-5, Codes: Change 【
+- Section 1.6.2, Gym Internal 1-5, Code 1-5, Codes: Change 【
 ```
     def __init__(self, env: Env, new_step_api: bool=False):
         self.env = env
