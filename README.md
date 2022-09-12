@@ -112,6 +112,7 @@
 - Section 2.5.1, Code 2-3, Codes, Line 3: Remove 【`, new_step_api=True`】
 - Section 3.1, the paragraph after "Interdisciplinary Reference 3-2", the formula after the line "Therefore". Please take care whether there are extra period ".". (There may be or may not be, I am not sure.)
 - Section 3.5.1, Code 3-1, Codes, Line 5: Remove 【`, new_step_api=True`】
+- Section 3.5.1, after Code 3-1, code block: Change 【`env.unwrapped.P`】 to 【`env.P`】 (impact all three lines, each of which is impacted once.)
 - Section 3.5.1, Code 3-2, Codes, Line 3: Change 【`observation = env.reset()`】 to 【`observation, _ = env.reset()`】.
 - Section 4.1.2, the paragraph before Algo. 4-5: Change 【Step 2.5.3】 to 【Step 2.5.2】  (three times in this paragraph).
 - Section 4.3.1, Code 4-2, Codes, Line 5: Change 【`observation = env.reset()`】 to 【`observation, _ = env.reset()`】.
@@ -220,14 +221,11 @@
 
     def reset(self, **kwargs):
         """Resets the environment using preprocessing."""
-        # NoopReset
         _, reset_info = self.env.reset(**kwargs)
 
-        noops = (
-            self.env.unwrapped.np_random.integers(1, self.noop_max + 1)
-            if self.noop_max > 0
-            else 0
-        )
+        # Reset with no-opers
+        noops = (self.env.unwrapped.np_random.integers(1, self.noop_max + 1)
+                if self.noop_max > 0 else 0)
         for _ in range(noops):
             _, _, terminated, truncated, step_info = self.env.step(0)
             reset_info.update(step_info)
