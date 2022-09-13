@@ -1,4 +1,4 @@
-(Feel free to contact Zhiqing for updated Word if this may help.)
+An updated Word is under preparation. Will be sent by email in next few days.
 
 - Section 1.2, Fig. 1-4, caption: Change 【`https://www.gymlibrary.ml/pages/environments/box2d/bipedal_walker`】 to 【`https://www.gymlibrary.dev/environments/box2d/bipedal_walker/`】.
 - Section 1.6.2, Paragraph 3: Change 【`env = gym.make('CartPole-v0', new_step_api=True)`】 to 【`env = gym.make('CartPole-v0')`】. (Gym 0.26 released on 8 Sep 2022 removed this parameter.)
@@ -120,7 +120,7 @@
 - Section 4.3.3, Code 4-6, Codes, Line 8: Change 【`observation = env.reset()`】 to 【`observation, _ = env.reset()`】.
 - Section 4.3.4, Code 4-7, Codes, Line 8: Change 【`observation = env.reset()`】 to 【`observation, _ = env.reset()`】.
 - Section 4.3.5, Code 4-8, Codes, Line 10: Change 【`observation = env.reset()`】 to 【`observation, _ = env.reset()`】.
-- Section 5.5.1, Code 5-1, Codes, Line 2: Change 【`state = env.reset()`】 to 【`state, _ = env.reset()`】.
+- Section 5.5.1, Code 5-1, Codes, Line 2: Change 【`state = env.reset()`】 to 【`state, _ = env.reset()`】. More bugs here.
 - Section 6.2.1, Interdisciplinary Reference 6-1, the third paragraph, change 【(Zhiqing, 2018)】 to 【(Xiao, 2018)】.
 - Section 6.5.1, Code 6-1, Codes, Line 2: Remove 【`, new_step_api=True`】
 - Section 6.5.1, Code 6-2, Codes, Line 2: Change 【`observation = env.reset()`】 to 【`observation, _ = env.reset()`】.
