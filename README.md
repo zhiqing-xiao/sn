@@ -1,4 +1,4 @@
-An updated Word has been emailed on 2022-09-18. No errata and updates are reported since then.
+An updated Word has been emailed on 2022-09-26. No errata and updates are reported since then.
 
 ----
 
