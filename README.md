@@ -1,9 +1,10 @@
-- Section 6.7.1, Problem 6-1: Remove the answer "[A]".
+- Section 2.4.3, in the example, the paragraph starting with "Case II", the sentense "The condition can be simplied to $\gamma\ge\frac{1-4\alpha}{1-\alpha}$ and $\gamma<\frac{1-4\beta}{1-\alpha}$". Change 【 $\gamma<\frac{1-4\beta}{1-\alpha}$  】 to 【 $\gamma\ge\frac{1-4\beta}{1-\alpha}$  】.
+- Section 6.7.1, Problem 6-1: Remove the answer 【[A]】.
 - Section 6.7.2, before Problem 6.5: Remove the line in Chinese.
-- Section 12.4, Paragraph 1: Change "They conducted" to "They conduct".
+- Section 12.4, Paragraph 1: Change 【They conducted】 to 【They conduct】.
 - Section 15.5, correct the numbering of heading.
 - Section 15.6, correct the numbering of heading.
-- Section 16.2, bullet, entry 1: Change $G_t=\int_{t}^{T}\gamma^{\tau-t}dR_\tau+G_T$ to $G_t=\int_{t}^{T}\gamma^{\tau-t}dR_\tau+\gamma^{T-t}G_T$.
+- Section 16.2, bullet, entry 1: Change 【 $G_t=\int_{t}^{T}\gamma^{\tau-t}dR_\tau+G_T$ 】 to 【 $G_t=\int_{t}^{T}\gamma^{\tau-t}dR_\tau+\gamma^{T-t}G_T$ 】.
 
 
 An updated Word has been emailed on 2022-09-26. No errata and updates are reported since then.
