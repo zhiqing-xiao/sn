@@ -1,5 +1,7 @@
+- Preface, Features, 2nd Item Group, Item 4: Change 【PyTorch 1】 to 【PyTorch 1&2】.
 - Section 2.4.3, in the example, the paragraph starting with "Case II", the sentense "The condition can be simplied to $\gamma\ge\frac{1-4\alpha}{1-\alpha}$ and $\gamma<\frac{1-4\beta}{1-\alpha}$". Change 【 $\gamma<\frac{1-4\beta}{1-\alpha}$  】 to 【 $\gamma\ge\frac{1-4\beta}{1-\alpha}$  】.
 - Section 5.7.3, Problem 5-8: (The author assigned the style incorrectedly. Please notice the paragraph format.)
+- Section 6.5.3, Paragraph 4: Change 【PyTorch 1】 to 【PyTorch 1&2】 (two occurances).
 - Section 6.7.1, Problem 6-1: Remove the answer 【[A]】.
 - Section 6.7.2, before Problem 6.5: Remove the line in Chinese.
 - Section 12.4, Paragraph 1: Change 【They conducted】 to 【They conduct】.
