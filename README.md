@@ -1,3 +1,21 @@
+Update on 2023-03-27:
+
+- Section 2.4.3. Change a 【 $\pi$ 】 in subscript is to 【 $\ast$ 】:
+
+_From:_
+
+The relationship that uses optimal action value at time $t+1$ to back up the optimal action value at time $t$:
+$q_\ast\left(\mathsfit{s},\mathsfit{a}\right)=r\left(\mathsfit{s},\mathsfit{a}\right)+\gamma\sum\limits_{\mathsfit{s'},\mathsfit{a'}}{p_\ast\left(\mathsfit{s'},\mathsfit{a'}|\mathsfit{s},\mathsfit{a}\right)q_\pi\left(\mathsfit{s'},\mathsfit{a'}\right)},\quad \mathsfit{s}\in\mathcal{S},\mathsfit{a}\in\mathcal{A}$
+
+_To:_
+
+The relationship that uses optimal action value at time $t+1$ to back up the optimal action value at time $t$:
+$q_\ast\left(\mathsfit{s},\mathsfit{a}\right)=r\left(\mathsfit{s},\mathsfit{a}\right)+\gamma\sum\limits_{\mathsfit{s'},\mathsfit{a'}}{p_\ast\left(\mathsfit{s'},\mathsfit{a'}|\mathsfit{s},\mathsfit{a}\right)q_\ast\left(\mathsfit{s'},\mathsfit{a'}\right)},\quad \mathsfit{s}\in\mathcal{S},\mathsfit{a}\in\mathcal{A}$
+
+
+
+----
+
 Errata on the Interdisciplinary Reference 4-2 in Section 4.1.1 has been sent via email on 2023-03-19.
 
 ----
