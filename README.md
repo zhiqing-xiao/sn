@@ -1,3 +1,37 @@
+Update on 2023-03-30:
+
+- Section 2.1.2, the first bullet group, 1st entry:
+
+_From:_
+
+$p_{\mathsfit{S}_0}:\mathcal{S}\rightarrow\left[0,1\right]$
+
+_To:_
+
+$p_{\mathsfit{S}_0}$
+
+- Section 2.1.2, the first bullet group, 1st entry:
+
+_From:_
+
+$p:\mathcal{S}^+\times\mathcal{R}\times\mathcal{S}\times\mathcal{A}\rightarrow\left[0,1\right]$
+
+_To:_
+
+$p$
+
+- Section 2.1.3, first paragraph:
+
+_From:_
+
+$\pi:\mathcal{S}\times\mathcal{A}\rightarrow\left[0,1\right]$
+
+_To:_
+
+$\pi$
+
+----
+
 Update on 2023-03-27:
 
 - Section 2.4.3. Change a 【 $\pi$ 】 in subscript is to 【 $\ast$ 】:
@@ -11,8 +45,6 @@ _To:_
 
 The relationship that uses optimal action value at time $t+1$ to back up the optimal action value at time $t$:
 $q_\ast\left(\mathsfit{s},\mathsfit{a}\right)=r\left(\mathsfit{s},\mathsfit{a}\right)+\gamma\sum\limits_{\mathsfit{s'},\mathsfit{a'}}{p_\ast\left(\mathsfit{s'},\mathsfit{a'}|\mathsfit{s},\mathsfit{a}\right)q_\ast\left(\mathsfit{s'},\mathsfit{a'}\right)},\quad \mathsfit{s}\in\mathcal{S},\mathsfit{a}\in\mathcal{A}$
-
-
 
 ----
 
