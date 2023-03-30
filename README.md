@@ -10,7 +10,7 @@ _To:_
 
 $p_{\mathsfit{S}_0}$
 
-- Section 2.1.2, the first bullet group, 1st entry:
+- Section 2.1.2, the first bullet group, 2nd entry:
 
 _From:_
 
