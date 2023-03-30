@@ -30,6 +30,25 @@ _To:_
 
 $\pi$
 
+- Section 2.4.4, near the end of this subsection, there is an "Example". In the last inline equation of this example, there is an equation set consisting of four equations. Two of them have "not eat". Both "not eat" should be changed to "ignore".
+
+_From:_
+
+$q_\ast\left(\text{hungry},\text{not eat}\right)=\frac{6}{11}$
+
+_To:_
+
+$q_\ast\left(\text{hungry},\text{ignore}\right)=\frac{6}{11}$
+
+
+_From:_
+
+$q_\ast\left(\text{full},\text{not eat}\right)=\frac{21}{11}$
+
+_To:_
+
+$q_\ast\left(\text{full},\text{ignore}\right)=\frac{21}{11}$
+
 ----
 
 Update on 2023-03-27:
