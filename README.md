@@ -1,7 +1,16 @@
 Update on 2023-03-31:
 
-- Section 2.2.3, Algo. 2-1, Inputs: Delete 【state values $v_\pi$ and】
+- Section 2.2.3, Algo. 2-1, Inputs: 
 
+_From:_
+
+dynamics $p$, policy $\pi$ and its values $v_\pi$ and action values $q_\pi$.
+
+_To:_
+
+policy $\pi$ and its action values $q_\pi$.
+
+----
 
 Update on 2023-03-30:
 
