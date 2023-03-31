@@ -1,3 +1,8 @@
+Update on 2023-03-31:
+
+- Section 2.2.3, Algo. 2-1, Inputs: Delete 【state values $v_\pi$ and】
+
+
 Update on 2023-03-30:
 
 - Section 2.1.2, the first bullet group, 1st entry:
