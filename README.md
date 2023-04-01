@@ -1,4 +1,4 @@
-Update on 2023-03-31:
+Update on 2023-04-01:
 
 - Section 2.2.3, Algo. 2-1, Inputs: 
 
@@ -9,6 +9,38 @@ dynamics $p$, policy $\pi$ and its values $v_\pi$ and action values $q_\pi$.
 _To:_
 
 policy $\pi$ and its action values $q_\pi$.
+
+
+- Section 2.4.3, delete a paragraph and following two entries: Delete 【
+
+The relationship among the optimal values also has vector representations:
+
+- The relationship that uses optimal state value at time $t+1$ to back up the optimal state value at time $t$:
+
+$v_\ast\left(\mathsfit{s}\right)=r_\ast\left(\mathsfit{s}\right)+\gamma ... $
+
+can be written as
+
+$\mathbf{v}_\ast=...$
+
+where ....
+
+- The relationship that uses optimal action value at time $t+1$ to back up the optimal state value at time $t$:
+
+$q_\ast\left(\mathsfit{s},\mathsfit{a}\right)=r\left(\mathsfit{s},\mathsfit{a}\right)+\gamma ... $
+
+can be written as
+
+$\mathbf{q}_\ast=...$
+
+where .... is an $\left|\mathcal{S}\right|\left|\mathcal{A}\right|\times\left|\mathcal{S}\right|\left|\mathcal{A}\right|$ matrix.
+
+】
+
+- Section 2.4.3, Search "Case I": Change 【 $v_\ast\left(\text{hungry}\right)=q_\ast\left(\text{hungry},\text{feed}\right)=$ 】to 【 $q_\ast\left(\text{hungry},\text{feed}\right)=$ 】, and change 【 $q_\ast\left(\text{hungry},\text{ignore}\right)=$ 】 to 【 $v_\ast\left(\text{hungry}\right)=q_\ast\left(\text{hungry},\text{ignore}\right)=$ 】
+
+- Section 2.4.3, Search "Case II": Change 【 $v_\ast\left(\text{hungry}\right)=q_\ast\left(\text{hungry},\text{eat}\right)=$ 】to 【 $v_\ast\left(\text{hungry}\right)=q_\ast\left(\text{hungry},\text{feed}\right)=$ 】. (That is, change "eat" to "feed".)
+
 
 ----
 
@@ -62,22 +94,6 @@ $q_\ast\left(\text{full},\text{not eat}\right)=\frac{21}{11}$
 _To:_
 
 $q_\ast\left(\text{full},\text{ignore}\right)=\frac{21}{11}$
-
-----
-
-Update on 2023-03-27:
-
-- Section 2.4.3. Change a 【 $\pi$ 】 in subscript is to 【 $\ast$ 】:
-
-_From:_
-
-The relationship that uses optimal action value at time $t+1$ to back up the optimal action value at time $t$:
-$q_\ast\left(\mathsfit{s},\mathsfit{a}\right)=r\left(\mathsfit{s},\mathsfit{a}\right)+\gamma\sum\limits_{\mathsfit{s'},\mathsfit{a'}}{p_\ast\left(\mathsfit{s'},\mathsfit{a'}|\mathsfit{s},\mathsfit{a}\right)q_\pi\left(\mathsfit{s'},\mathsfit{a'}\right)},\quad \mathsfit{s}\in\mathcal{S},\mathsfit{a}\in\mathcal{A}$
-
-_To:_
-
-The relationship that uses optimal action value at time $t+1$ to back up the optimal action value at time $t$:
-$q_\ast\left(\mathsfit{s},\mathsfit{a}\right)=r\left(\mathsfit{s},\mathsfit{a}\right)+\gamma\sum\limits_{\mathsfit{s'},\mathsfit{a'}}{p_\ast\left(\mathsfit{s'},\mathsfit{a'}|\mathsfit{s},\mathsfit{a}\right)q_\ast\left(\mathsfit{s'},\mathsfit{a'}\right)},\quad \mathsfit{s}\in\mathcal{S},\mathsfit{a}\in\mathcal{A}$
 
 ----
 
