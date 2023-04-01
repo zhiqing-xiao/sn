@@ -37,11 +37,9 @@ where .... is an $\left|\mathcal{S}\right|\left|\mathcal{A}\right|\times\left|\m
 
 】
 
-- Section 2.4.3, Search "Case I": Change【 $\lt q_\ast\left(\text{full},\text{eat}\right)$ 】to 【 $\lt q_\ast\left(\text{full},\text{feed}\right)$ 】.
+- Section 2.4.3, Search "Case I": Change【 $\lt q_\ast\left(\text{full},\text{eat}\right)$ 】to 【 $\lt q_\ast\left(\text{full},\text{feed}\right)$ 】. (That is, change "eat" to "feed".)
 
-- Section 2.4.3, Search "Case I" (the same entry as the above), inline math:
- 
-Change 【 $v_\ast\left(\text{hungry}\right)=q_\ast\left(\text{hungry},\text{feed}\right)=$ 】to 【 $q_\ast\left(\text{hungry},\text{feed}\right)=$ 】.
+- Section 2.4.3, Search "Case I" (the same entry as the above), inline math: Change 【 $v_\ast\left(\text{hungry}\right)=q_\ast\left(\text{hungry},\text{feed}\right)=$ 】to 【 $q_\ast\left(\text{hungry},\text{feed}\right)=$ 】.
 Change 【 $q_\ast\left(\text{hungry},\text{ignore}\right)=$ 】 to 【 $v_\ast\left(\text{hungry}\right)=q_\ast\left(\text{hungry},\text{ignore}\right)=$ 】.
 Change 【 $q_\ast\left(\text{full},\text{feed}\right)=$ 】 to 【 $v_\ast\left(\text{full}\right)=q_\ast\left(\text{full},\text{feed}\right)=$ 】.
 Change 【 $v_\ast\left(\text{full}\right)=q_\ast\left(\text{full},\text{ignore}\right)=$ 】to 【 $q_\ast\left(\text{full},\text{ignore}\right)=$ 】.
