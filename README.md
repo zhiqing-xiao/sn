@@ -10,7 +10,11 @@ _To:_
 
 policy $\pi$ and its action values $q_\pi$.
 
-- Section 2.3.2, first entry group, the 3rd entry, first block math, rightmost part, Change 【 $\mathsfit{s'}\in\mathcal{S}$ 】 to 【 $\mathsfit{s}\in\mathcal{S}$ 】.
+- Section 2.3.2, 2nd entry group, the 1st entry, first block math, rightmost part, Change 【 $\mathsfit{s'}\in\mathcal{S}$ 】 to 【 $\mathsfit{s}\in\mathcal{S}$ 】.
+
+_From:_【 $\rho_\pi\left(\mathsfit{s}\right)=p_{\mathsfit{S}_0}\left(\mathsfit{s}\right)+ ..., \quad \mathsfit{s}'\in\mathcal{S}$ 】
+
+_To:_【 $\rho_\pi\left(\mathsfit{s}\right)=p_{\mathsfit{S}_0}\left(\mathsfit{s}\right)+ ..., \quad \mathsfit{s}\in\mathcal{S}$ 】
 
 - Section 2.4.3, delete a paragraph and following two entries: Delete 【
 
