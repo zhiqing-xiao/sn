@@ -16,6 +16,8 @@ _From:_【 $\rho_\pi\left(\mathsfit{s}\right)=p_{\mathsfit{S}_0}\left(\mathsfit{
 
 _To:_【 $\rho_\pi\left(\mathsfit{s}\right)=p_{\mathsfit{S}_0}\left(\mathsfit{s}\right)+ ..., \quad \mathsfit{s}\in\mathcal{S}$ 】
 
+- Section 2.3.2, 2nd entry group, the 2st entry, first block math, the smaller letter under the summation symbol $\Sigma$, Change 【 $\mathsfit{s}'\in\mathcal{S}$ 】 to 【 $\mathsfit{s}'\in\mathcal{S},\mathsfit{a}'\in\mathcal{A}$ 】.
+
 - Section 2.4.3, delete a paragraph and following two entries: Delete 【
 
 The relationship among the optimal values also has vector representations:
