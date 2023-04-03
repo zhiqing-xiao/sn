@@ -61,6 +61,8 @@ People tend to use the primary programming, rather than the duel programming. Th
 
 】
 
+- Section 2.4.4, the example near the end of this subsection. There are two set of block math, in total they have six subscript $\pi$, and all six $\pi$ should be changed to $\ast$ . That is, two 【 $v_\pi$ 】 should be changed to 【 $v_\ast$ 】, and four 【 $q_\pi$ 】 should be changed to 【 $q_\ast$ 】。
+
 ----
 
 Update on 2023-03-30:
