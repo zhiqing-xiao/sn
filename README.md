@@ -53,6 +53,13 @@ Change 【 $v_\ast\left(\text{full}\right)=q_\ast\left(\text{full},\text{ignore}
 
 - Section 2.4.3, Search "Case II": Change 【 $v_\ast\left(\text{hungry}\right)=q_\ast\left(\text{hungry},\text{eat}\right)=$ 】to 【 $v_\ast\left(\text{hungry}\right)=q_\ast\left(\text{hungry},\text{feed}\right)=$ 】. (That is, change "eat" to "feed".)
 
+- Section 2.4.4, immediately after "Interdisciplinary Reference", just before the body text "Section 2.4.3 told us that", add two new paragraphs (outside the Interdisciplinary reference): 【
+
+The reason why these programmings can find the optimal policy is as follows: We have known the equivalency between the discounted visitation frequency and the policy. Therefore, every feasible solution in the duel programming will meet the conditions for visitation frequencies so it corresponds to a policy, and every policy corresponds to a feasible solution in dual programming. Therefore, the dual programming can search over all policies and find the policy that obtains the optimal expected discounted return. Due to strong duality, the primary programming can find the values that obtains the optimal expected discounted return too.
+
+People tend to use the primary programming, rather than the duel programming. The reasons are as follows: First, the optimal value is unique, but the optimal policies may not unique. Second, we can further change the primary programming such that it does not depend on the initial state distribution, while the duel programming always requires the knowledge of initial state distribution. Next, let us see how to make primary programming no longer dependent on the initial state distribution.
+
+】
 
 ----
 
