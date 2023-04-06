@@ -63,6 +63,8 @@ People tend to use the primary programming, rather than the duel programming. Th
 
 - Section 2.4.4, the example near the end of this subsection. There are two set of block math, in total they have six subscript $\pi$, and all six $\pi$ should be changed to $\ast$ . That is, two 【 $v_\pi$ 】 should be changed to 【 $v_\ast$ 】, and four 【 $q_\pi$ 】 should be changed to 【 $q_\ast$ 】. (Previously we have changed all "not eat" to "ignore".)
 
+- Section 10.1.3, 2nd paragraph, the line after the block math. Change from 【the two policy satisfies】 to 【the two policies satisfy】.
+
 ----
 
 Update on 2023-03-30:
