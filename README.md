@@ -18,6 +18,14 @@ _To:_【 $\rho_\pi\left(\mathsfit{s}\right)=p_{\mathsfit{S}_0}\left(\mathsfit{s}
 
 - Section 2.3.2, 2nd entry group, the 2st entry, first block math, the smaller letter under the summation symbol $\Sigma$, Change 【 $\mathsfit{s}'\in\mathcal{S}$ 】 to 【 $\mathsfit{s}'\in\mathcal{S},\mathsfit{a}'\in\mathcal{A}$ 】.
 
+_From:_
+
+$\rho_\pi\left(\mathsfit{s},\mathsfit{a}\right)=p_{0,\pi}\left(\mathsfit{s},\mathsfit{a}\right)+\sum\limits_{\mathsfit{s}'\in\mathcal{S}}{\gamma{p_\pi}\left(\mathsfit{s},\mathsfit{a}\mid\mathsfit{s}',\mathsfit{a}'\right)\rho_\pi\left(\mathsfit{s}',\mathsfit{a}'\right)}$
+
+_To:_
+
+$\rho_\pi\left(\mathsfit{s},\mathsfit{a}\right)=p_{0,\pi}\left(\mathsfit{s},\mathsfit{a}\right)+\sum\limits_{\mathsfit{s}'\in\mathcal{S},\mathsfit{a}'\in\mathcal{A}}{\gamma{p_\pi}\left(\mathsfit{s},\mathsfit{a}\mid\mathsfit{s}',\mathsfit{a}'\right)\rho_\pi\left(\mathsfit{s}',\mathsfit{a}'\right)}$
+
 - Section 2.4.3, delete a paragraph and following two entries: Delete 【
 
 The relationship among the optimal values also has vector representations:
