@@ -1,5 +1,9 @@
 Update on 2023-04-01:
 
+- Math Notation, Other notation, first entry. Delete 【; partial oder of policy】
+
+- Math Notation, Other notation, add another entry after first entry: 【$\prec$, $\preceq$  partial order of policy】. The LaTeX codes are `\prec` and `\preceq`.
+
 - Section 2.2.3, Algo. 2-1, Inputs: 
 
 _From:_
