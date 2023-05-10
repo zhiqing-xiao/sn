@@ -1,3 +1,7 @@
+Update on 2023-05-10:
+
+- Section 9.5.1, the text paragraph between Code 9-1 and Code 9-2: Change 【It uses】 to 【They use】.
+
 Update on 2023-04-27:
 
 - Please search the whole book: Change 【discounted factor】to 【discount factor】. (Section 2.6, 4.3.2, 6.4.1, 8.2.1, 8.2.2, 8.2.3, 8.4.3, 8.5, 9.2, 9.3.1, 10.2.2, 16.6.1, Tables of Codes)
