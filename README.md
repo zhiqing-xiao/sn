@@ -1,5 +1,6 @@
-Update on 2023-05-10:
+Update on 2023-05-XX:
 
+- Please search the whole book: Change 【Robbins-Monro】 to 【Robbins–Monro】. That is, change hyphen to en dash. (Section 4.1.1, 4.4, 4.5.1, 6.2.1, 6.3.1, 7.2.2)
 - Section 9.5.1, the text paragraph between Code 9-1 and Code 9-2: Change 【It uses】 to 【They use】.
 
 Update on 2023-04-27:
