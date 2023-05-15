@@ -1,5 +1,7 @@
 Update on 2023-05-XX:
 
+- Section 14.1.5, second paragraph, change 【In this sample, the cross-entropy loss of this policy is $-\sum\limits_{\mathsfit{a}\in\mathcal{A}\left(\mathsfit{s}\right)}\Pi\left(\mathsfit{a}\mid\mathsfit{S}\right)\log\pi_\text{PUCT}\left(\mathsfit{a}\mid\mathsfit{S}\right)$ 】 to 【In this sample, the cross-entropy loss of this policy is $-\sum\limits_{\mathsfit{a}\in\mathcal{A}\left(\mathsfit{S}\right)}\Pi\left(\mathsfit{a}\mid\mathsfit{S}\right)\log\pi_\text{PUCT}\left(\mathsfit{a}\mid\mathsfit{S}\right)$ 】. That is, upper case S.
+- Section 14.4, Summary Bullets, 3rd entry, block equation, change 【 $\mathsfit{a}\in\mathcal{A}\left(\mathsfit{s}\right)$ 】 to 【 $\mathsfit{s}\in\mathcal{S},\mathsfit{a}\in\mathcal{A}\left(\mathsfit{s}\right) $】.
 - Section 13.2.1, 2nd paragraph, change 【 $q\left(\mathsfit{a}\right)=\mathrm{E}\left[R\mid\mathsfit{A}=\mathsfit{a}\right]=\sum\nolimits_{r}{\Pr\left[R\mid\mathsfit{A}=\mathsfit{a}\right]}$ 】 to 【 $q\left(\mathsfit{a}\right)=\mathrm{E}\left[R\mid\mathsfit{A}=\mathsfit{a}\right]=\sum\nolimits_{r}{\Pr\left[r\mid\mathsfit{A}=\mathsfit{a}\right]}$ 】. That is, a 【 $R$ 】is changed to 【 $r$ 】.
 - Please search the whole book: Change 【Cauchy-Schwarz】 to 【Cauchy–Schwarz】. That is, change hyphen to en dash. (Section 13.3 only)
 - Please search the whole book: Change 【Robbins-Monro】 to 【Robbins–Monro】. That is, change hyphen to en dash. (Section 4.1.1, 4.4, 4.5.1, 6.2.1, 6.3.1, 7.2.2)
