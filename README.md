@@ -1,5 +1,10 @@
 Update on 2023-05-XX:
 
+- Section 16.4.1, last bullet group, second bullet, change 【 $\left[\sum\limits_{t\ge0}1_{\left[\mathsfit{S}_t=\mathsfit{s},\mathsfit{A}_t=\mathsfit{a}\right]}\mid\right]$
+
+】 to 【 $\left[\sum\limits_{t\ge0}1_{\left[\mathsfit{S}_t=\mathsfit{s},\mathsfit{A}_t=\mathsfit{a}\right]}\right]$ 】 That is, remove the extra vertical bar.
+- Section 16.5.1, first paragraph: inline equation: change 【 $A_0$ 】 to 【 $\mathsfit{A}_0$ 】, change 【 $A_1$ 】 to 【 $\mathsfit{A}_1$ 】. And the block math, change the two 【 $A_0$ 】 to 【 $\mathsfit{A}_0$ 】. That is, `mathsfit` A. (Additionally a previous errata entry removes the extra comma.)
+- Section 16.5.3, the last block equation: Change 【 $b\in\mathcal{B}_t,a\in\mathcal{A}_t$ 】 to 【 $b\in\mathcal{B},\mathsfit{a}\in\mathcal{A}$ 】. That is, remove two subscipts, and change a to `mathsfit`.
 - Section 14.1.5, second paragraph, change 【In this sample, the cross-entropy loss of this policy is $-\sum\limits_{\mathsfit{a}\in\mathcal{A}\left(\mathsfit{s}\right)}\Pi\left(\mathsfit{a}\mid\mathsfit{S}\right)\log\pi_\text{PUCT}\left(\mathsfit{a}\mid\mathsfit{S}\right)$ 】 to 【In this sample, the cross-entropy loss of this policy is $-\sum\limits_{\mathsfit{a}\in\mathcal{A}\left(\mathsfit{S}\right)}\Pi\left(\mathsfit{a}\mid\mathsfit{S}\right)\log\pi_\text{PUCT}\left(\mathsfit{a}\mid\mathsfit{S}\right)$ 】. That is, upper case S.
 - Section 14.4, Summary Bullets, 3rd entry, block equation, change 【 $\mathsfit{a}\in\mathcal{A}\left(\mathsfit{s}\right)$ 】 to 【 $\mathsfit{s}\in\mathcal{S},\mathsfit{a}\in\mathcal{A}\left(\mathsfit{s}\right) $】.
 - Section 13.2.1, 2nd paragraph, change 【 $q\left(\mathsfit{a}\right)=\mathrm{E}\left[R\mid\mathsfit{A}=\mathsfit{a}\right]=\sum\nolimits_{r}{\Pr\left[R\mid\mathsfit{A}=\mathsfit{a}\right]}$ 】 to 【 $q\left(\mathsfit{a}\right)=\mathrm{E}\left[R\mid\mathsfit{A}=\mathsfit{a}\right]=\sum\nolimits_{r}{\Pr\left[r\mid\mathsfit{A}=\mathsfit{a}\right]}$ 】. That is, a 【 $R$ 】is changed to 【 $r$ 】.
