@@ -1,5 +1,6 @@
 Update on 2023-05-XX:
 
+- Section 8.3.2, search 【Majorize-Minimize】  (1 occurance) and 【Minorize-Maximize】 (3 occurances) . Change hyphen to en dash.
 - Section 2.2.3, the last block equation: change 【 $\max\limits_{\mathsfit{a}'}$ 】 to 【 $\max\limits_{\mathsfit{a}}$ 】. That is, remove the prime.
 - Section 16.4.1, last bullet group, second bullet, change 【 $\left[\sum\limits_{t\ge0}1_{\left[\mathsfit{S}_t=\mathsfit{s},\mathsfit{A}_t=\mathsfit{a}\right]}\mid\right]$ 】 to 【
 
