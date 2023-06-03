@@ -1,3 +1,8 @@
+Update on 2023-06-XX
+
++ Section 1.1, Paragraph 1, last sentence: Change 【costs signals】 to 【cost signals】.
++ Section 9.3.3, Paragraph 2, the last sentence but one: Add a space between 【 $\mathbf{w}_{\text{target}}^{\left(i\right)}$ 】   and 【( $i=0,1$ ) 】.
+
 Update on 2023-05-XX:
 
 - Section 1.4.2, heading, change from 【Taxonomy based on Algorithm】 to 【Algorithm-based Taxonomy】.
