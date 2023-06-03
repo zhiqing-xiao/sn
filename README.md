@@ -1,6 +1,7 @@
 Update on 2023-06-XX
 
 + Section 1.1, Paragraph 1, last sentence: Change 【costs signals】 to 【cost signals】.
++ Section 1.4, Fig. 1.6, right column. Change  【Monte-Carlo】  to 【Monte Carlo】.  Change  【Temporal-Difference】 to 【Temporal Difference】. That is, remove two hyphens. (Updated figures are available upon request.)
 + Section 9.3.3, Paragraph 2, the last sentence but one: Add a space between 【 $\mathbf{w}_{\text{target}}^{\left(i\right)}$ 】   and 【( $i=0,1$ ) 】.
 
 Update on 2023-05-XX:
