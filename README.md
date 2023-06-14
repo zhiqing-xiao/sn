@@ -1,5 +1,6 @@
 Update on 2023-06-XX
 
+- Math notations, the entry of "trajectory": If you have decided to use smaller capital T, please move it from the section of greek letter to the section of Latin letters.
 - Section 2.3.2, second bullet group, the second bullet, the first block math: Change 【 $\sum\limits_{\mathsf{s}'\in\mathcal{S}}\gamma{p_\pi}\left(\mathsfit{s},\mathsfit{a}\mid\mathsfit{s}',\mathsfit{a}'\right)\rho_\pi\left(\mathsfit{s}',\mathsfit{a}'\right)$ 】 to 【 $\sum\limits_{\mathsf{s}'\in\mathcal{S},\mathsfit{a}'\in\mathcal{A}\left(\mathsfit{s}'\right)}\gamma{p_\pi}\left(\mathsfit{s},\mathsfit{a}\mid\mathsfit{s}',\mathsfit{a}'\right)\rho_\pi\left(\mathsfit{s}',\mathsfit{a}'\right)$ 】. That is, add something to the summation range.
 - Section 16.3.1, Example: change 【Hamilton-Jacobi-Bellman】 to 【Hamilton–Jacobi–Bellman】 (Two occurrences). That is, change hyphen to en dash (4 occurrences).
 + Section 1.1, Paragraph 1, last sentence: Change 【costs signals】 to 【cost signals】.
