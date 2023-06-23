@@ -1,10 +1,10 @@
 Update on 2023-06-XX
 
++ Math notations, first subheading, change 【Lation Letters】 to 【English letters】
 - Math notations, the entry of "trajectory": If you have decided to use smaller capital T, please move it from the section of greek letter to the section of Latin letters.
 - Section 2.3.2, second bullet group, the second bullet, the first block math: Change 【 $\sum\limits_{\mathsf{s}'\in\mathcal{S}}\gamma{p_\pi}\left(\mathsfit{s},\mathsfit{a}\mid\mathsfit{s}',\mathsfit{a}'\right)\rho_\pi\left(\mathsfit{s}',\mathsfit{a}'\right)$ 】 to 【 $\sum\limits_{\mathsf{s}'\in\mathcal{S},\mathsfit{a}'\in\mathcal{A}\left(\mathsfit{s}'\right)}\gamma{p_\pi}\left(\mathsfit{s},\mathsfit{a}\mid\mathsfit{s}',\mathsfit{a}'\right)\rho_\pi\left(\mathsfit{s}',\mathsfit{a}'\right)$ 】. That is, add something to the summation range.
 - Section 16.3.1, Example: change 【Hamilton-Jacobi-Bellman】 to 【Hamilton–Jacobi–Bellman】 (Two occurrences). That is, change hyphen to en dash (4 occurrences).
 + Section 1.1, Paragraph 1, last sentence: Change 【costs signals】 to 【cost signals】.
-+ Section 1.4, Fig. 1.6, right column. Change  【Monte-Carlo】  to 【Monte Carlo】.  Change  【Temporal-Difference】 to 【Temporal Difference】. That is, remove two hyphens. (Updated figures are available upon request.)
 + Section 9.3.3, Paragraph 2, the last sentence but one: Add a space between 【 $\mathbf{w}_{\text{target}}^{\left(i\right)}$ 】   and 【( $i=0,1$ ) 】.
 + Section 11.1.1, Algorithm 11.1, Step 2.1: Change 【 $N\left(\mathbf{0},\mathbf{I}\right)$ 】 to 【 $\text{normal}\left(\mathbf{0},\mathbf{I}\right)$ 】.
 + Section 11.1.2, Algorithm 11.2, Step 2.1: Change 【 $N\left(\mathbf{0},\mathbf{I}\right)$ 】 to 【 $\text{normal}\left(\mathbf{0},\mathbf{I}\right)$ 】.
