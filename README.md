@@ -1,3 +1,9 @@
+Update on 2023-09-XX
+
+- Section 2.1.4, the last but one paragraph, the last line, change 【 $\sum\limits_{\tau=1}^{+\infty}{\gamma^\tau R_{\left(t+1\right)+\tau+1}}$  】 to 【 $\sum\limits_{\tau=0}^{+\infty}{\gamma^\tau R_{\left(t+1\right)+\tau+1}}$ 】. That is, change 【1】 to 【0】. (one occurance in total.)
+- Section 2.3.2, the first bullet group, the third bullet entry, the second block math (has 6 lines), the last four lines: Change 【t=1】 to 【t=0】 (four occurances in total.)
+
+
 Update on 2023-06-XX
 
 + Math notations, first subheading, change 【Lation Letters】 to 【English letters】
