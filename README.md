@@ -1,3 +1,7 @@
+Update on 2023-10-XX
+
+- Section 2.4.1. The second bullet point. Block math. Change 【 $p_\ast\left(\mathsfit{s'},\mathsfit{a'}|\mathsfit{s},\mathsfit{a}\right)=\sum\limits_{\mathsfit{a'}}{\pi_\ast\left(\mathsfit{a'}\mid\mathsfit{s'} \right)\sum\limits_\mathsfit{a}{p\left(\mathsfit{s'}\mid\mathsfit{s},\mathsfit{a}\right)}},\quad\mathsfit{s}\in\mathcal{S},\mathsfit{a}\in\mathcal{A}\left(\mathsfit{s}\right),\mathsfit{s'}\in\mathcal{S},\mathsfit{a}\in\mathcal{A}\left(\mathsfit{s'}\right)$ 】 to 【 $p_\ast\left({\mathsfit{s'},\mathsfit{a'}|\mathsfit{s},\mathsfit{a}}\right)=\pi_\ast\left(\mathsfit{a'}\mid\mathsfit{s'}\right)p\left( \mathsfit{s'}\mid\mathsfit{s},\mathsfit{a}\right),\quad\mathsfit{s}\in\mathcal{S},\mathsfit{a}\in\mathcal{A}\left(\mathsfit{s}\right),\mathsfit{s'}\in\mathcal{S},\mathsfit{a'}\in\mathcal{A}\left(\mathsfit{s'}\right)$ 】. That is, remove two summation signs, and add a prime at the last $\mathsfit{a}$.
+
 Update on 2023-09-XX
 
 - Section 2.1.4, the last but one paragraph, the last line, change 【 $\sum\limits_{\tau=1}^{+\infty}{\gamma^\tau R_{\left(t+1\right)+\tau+1}}$  】 to 【 $\sum\limits_{\tau=0}^{+\infty}{\gamma^\tau R_{\left(t+1\right)+\tau+1}}$ 】. That is, change 【1】 to 【0】. (one occurance in total.)
