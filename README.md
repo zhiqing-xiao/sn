@@ -1,6 +1,6 @@
 Update on 2023-11-02
 
-- Section 10.4.2. Code 10-1. The codes are wrong. Please use the following codes:
+- Section 10.4.2. Code 10-2. The codes are wrong. Please use the following codes:
 
 ```python
 class ClosedFormAgent:
