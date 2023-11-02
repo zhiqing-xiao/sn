@@ -1,15 +1,8 @@
 Update on 2023-11-02
 
-- Section 10.4.2. Code 10-2. The codes are wrong. Please use the following codes:
+- Section 10.4.2. Code 10-2. The function·`step()` is wrong. Please use the following codes: (The first line and last line does not change. Most of lines are the same as those in Code 10-1, except the lines just before the last line.)
 
 ```python
-class ClosedFormAgent:
-    def __init__(self, _):
-        pass
-
-    def reset(self, mode=None):
-        pass
-
     def step(self, observation, reward, terminated):
         x, y, v_x, v_y, angle, v_angle, contact_left, \
                 contact_right = observation
@@ -25,11 +18,6 @@ class ClosedFormAgent:
 
         action = np.array([f_y, f_angle])
         return action
-
-    def close(self):
-        pass
-
-agent = ClosedFormAgent(env)
 ```
 
 Update on 2023-10-XX
