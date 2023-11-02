@@ -1,3 +1,37 @@
+Update on 2023-11-02
+
+- Section 10.4.2. Code 10-1. The codes are wrong. Please use the following codes:
+
+```python
+class ClosedFormAgent:
+    def __init__(self, _):
+        pass
+
+    def reset(self, mode=None):
+        pass
+
+    def step(self, observation, reward, terminated):
+        x, y, v_x, v_y, angle, v_angle, contact_left, \
+                contact_right = observation
+
+        if contact_left or contact_right:
+                # legs have contact
+            f_y = -10. * v_y - 1.
+            f_angle = 0.
+        else:
+            f_y = 5.5 * np.abs(x) - 10. * y - 10. * v_y - 1.
+            f_angle = -np.clip(5. * x + 10. * v_x, -4, 4
+                    ) + 10. * angle + 20. * v_angle
+
+        action = np.array([f_y, f_angle])
+        return action
+
+    def close(self):
+        pass
+
+agent = ClosedFormAgent(env)
+```
+
 Update on 2023-10-XX
 
 - Section 2.4.1. The second bullet point. Block math. Change 【 $p_\ast\left(\mathsfit{s'},\mathsfit{a'}|\mathsfit{s},\mathsfit{a}\right)=\sum\limits_{\mathsfit{a'}}{\pi_\ast\left(\mathsfit{a'}\mid\mathsfit{s'} \right)\sum\limits_\mathsfit{a}{p\left(\mathsfit{s'}\mid\mathsfit{s},\mathsfit{a}\right)}},\quad\mathsfit{s}\in\mathcal{S},\mathsfit{a}\in\mathcal{A}\left(\mathsfit{s}\right),\mathsfit{s'}\in\mathcal{S},\mathsfit{a}\in\mathcal{A}\left(\mathsfit{s'}\right)$ 】 to 【 $p_\ast\left({\mathsfit{s'},\mathsfit{a'}|\mathsfit{s},\mathsfit{a}}\right)=\pi_\ast\left(\mathsfit{a'}\mid\mathsfit{s'}\right)p\left( \mathsfit{s'}\mid\mathsfit{s},\mathsfit{a}\right),\quad\mathsfit{s}\in\mathcal{S},\mathsfit{a}\in\mathcal{A}\left(\mathsfit{s}\right),\mathsfit{s'}\in\mathcal{S},\mathsfit{a'}\in\mathcal{A}\left(\mathsfit{s'}\right)$ 】. That is, remove two summation signs, and add a prime at the last $\mathsfit{a}$.
