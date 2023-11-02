@@ -1,6 +1,6 @@
 Update on 2023-11-02
 
-- Section 10.4.2. Code 10-2. The function·`step()` is wrong. Please use the following codes: (The first line and last line does not change. Most of lines are the same as those in Code 10-1, except the lines just before the last line.)
+- Section 10.4.2. Code 10-2. The function·`step()` is wrong. Please use the following codes: (The first line and last line are not changed. Most of lines are the same as those in Code 10-1, except the lines just before the last line.)
 
 ```python
     def step(self, observation, reward, terminated):
