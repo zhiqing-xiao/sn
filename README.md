@@ -1,25 +1,11 @@
+Zhiqing will remove an errata entry if he confirmed that it has been corrected in PDF.
+
+--------
+
 Update on 2023-11-02
 
 - Section 10.1.5, In Proof Method 2, in the math equation after the text "calculating the gradient of", delete remove 【 $\mathsfit{s}\in\mathcal{S},\mathsfit{a}\in\mathcal{A\left(\mathsfit{s}\right)}$ 】. (It is/will-be also marked in attached PDF in the email.)
-- Section 10.4.2. Code 10-2. The function·`step()` is wrong. Please use the following codes: (The first line and last line are not changed. Most of lines are the same as those in Code 10-1, except the lines just before the last line.)
 
-```python
-    def step(self, observation, reward, terminated):
-        x, y, v_x, v_y, angle, v_angle, contact_left, \
-                contact_right = observation
-
-        if contact_left or contact_right:
-                # legs have contact
-            f_y = -10. * v_y - 1.
-            f_angle = 0.
-        else:
-            f_y = 5.5 * np.abs(x) - 10. * y - 10. * v_y - 1.
-            f_angle = -np.clip(5. * x + 10. * v_x, -4, 4
-                    ) + 10. * angle + 20. * v_angle
-
-        action = np.array([f_y, f_angle])
-        return action
-```
 
 Update on 2023-10-XX
 
@@ -63,7 +49,7 @@ $\left[\sum\limits_{t\ge0}1_{\left[\mathsfit{S}_t=\mathsfit{s},\mathsfit{A}_t=\m
 
 Update on 2023-04-27:
 
-- Please search the whole book: Change 【discounted factor】to 【discount factor】. (Section 2.6, 4.3.2, 6.4.1, 8.2.1, 8.2.2, 8.2.3, 8.4.3, 8.5, 9.2, 9.3.1, 10.2.2, 16.6.1, Tables of Codes)
+- Please search the whole book: Change 【discounted factor】to 【discount factor】. (Section 2.6, 4.3.2, 6.4.1, 8.2.1, 8.2.2, 8.2.3, 8.4.3, 8.5, 9.2, 9.3.1, 16.6.1, Tables of Codes)
 
 Update on 2023-04-01:
 
@@ -141,8 +127,6 @@ People tend to use the primary programming, rather than the duel programming. Th
 】
 
 - Section 2.4.4, the example near the end of this subsection. There are two set of block math, in total they have six subscript $\pi$, and all six $\pi$ should be changed to $\ast$ . That is, two 【 $v_\pi$ 】 should be changed to 【 $v_\ast$ 】, and four 【 $q_\pi$ 】 should be changed to 【 $q_\ast$ 】. (Previously we have changed all "not eat" to "ignore".)
-
-- Section 10.1.3, 2nd paragraph, the line after the block math. Change from 【the two policy satisfies】 to 【the two policies satisfy】.
 
 ----
 
