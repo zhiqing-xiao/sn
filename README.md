@@ -1,5 +1,6 @@
 Update on 2023-11-02
 
+- Section 10.1.5, In Proof Method 2, in the math equation after the text "calculating the gradient of", delete remove 【 $\mathsfit{s}\in\mathcal{S},\mathsfit{a}\in\mathcal{A\left(\mathsfit{s}\right)}$ 】. (It is/will-be also marked in attached PDF in the email.)
 - Section 10.4.2. Code 10-2. The function·`step()` is wrong. Please use the following codes: (The first line and last line are not changed. Most of lines are the same as those in Code 10-1, except the lines just before the last line.)
 
 ```python
