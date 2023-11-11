@@ -2,7 +2,7 @@ Zhiqing will remove an errata entry if he confirmed that it has been corrected i
 
 --------
 
-Update on 2023-11-02
+Update on 2023-11-11
 
 - Section 10.1.5, In Proof Method 2, in the math equation after the text "calculating the gradient of", delete remove 【 $\mathsfit{s}\in\mathcal{S},\mathsfit{a}\in\mathcal{A\left(\mathsfit{s}\right)}$ 】. (It is/will-be also marked in attached PDF in the email.)
 
