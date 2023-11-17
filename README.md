@@ -2,11 +2,6 @@ Zhiqing will remove an errata entry if he confirmed that it has been corrected i
 
 --------
 
-Update on 2023-11-11
-
-- Section 10.1.5, In Proof Method 2, in the math equation after the text "calculating the gradient of", delete remove 【 $\mathsfit{s}\in\mathcal{S},\mathsfit{a}\in\mathcal{A\left(\mathsfit{s}\right)}$ 】. (It is/will-be also marked in attached PDF in the email.)
-
-
 Update on 2023-10-XX
 
 - Section 2.4.1. The second bullet point. Block math. Change 【 $p_\ast\left(\mathsfit{s'},\mathsfit{a'}|\mathsfit{s},\mathsfit{a}\right)=\sum\limits_{\mathsfit{a'}}{\pi_\ast\left(\mathsfit{a'}\mid\mathsfit{s'} \right)\sum\limits_\mathsfit{a}{p\left(\mathsfit{s'}\mid\mathsfit{s},\mathsfit{a}\right)}},\quad\mathsfit{s}\in\mathcal{S},\mathsfit{a}\in\mathcal{A}\left(\mathsfit{s}\right),\mathsfit{s'}\in\mathcal{S},\mathsfit{a}\in\mathcal{A}\left(\mathsfit{s'}\right)$ 】 to 【 $p_\ast\left({\mathsfit{s'},\mathsfit{a'}|\mathsfit{s},\mathsfit{a}}\right)=\pi_\ast\left(\mathsfit{a'}\mid\mathsfit{s'}\right)p\left( \mathsfit{s'}\mid\mathsfit{s},\mathsfit{a}\right),\quad\mathsfit{s}\in\mathcal{S},\mathsfit{a}\in\mathcal{A}\left(\mathsfit{s}\right),\mathsfit{s'}\in\mathcal{S},\mathsfit{a'}\in\mathcal{A}\left(\mathsfit{s'}\right)$ 】. That is, remove two summation signs, and add a prime at the last $\mathsfit{a}$.
