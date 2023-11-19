@@ -16,6 +16,8 @@ Update on 2023-11-1X
 
 - Section 4.1.1, Interdisciplinary Reference 4.2, Search "Taking the expectation on the condition of", the block math after this line: Change 【 $=-2{\alpha_k}\left(X_{k-1}-x_\ast\right)f\left(X_{k-1}\right)+\alpha_k^2\mathrm{E}\left[\left|{F{{\left(X_{k-1}\right)}^2}}\right|\mid{X_{k-1}}\right]$ 】 to 【 $=-2{\alpha_k}\left(X_{k-1}-x_\ast\right)f\left(X_{k-1}\right)+\alpha_k^2\mathrm{E}\left[\left|{F{{\left(X_{k-1}\right)}}}\right|^2\mid{X_{k-1}}\right]$ 】
 
+- Chapter 5, Body Text, First Line: Change 【 Temporal Different 】 to 【 Temporal Difference 】.
+
 - Section 7.1.2, Search "Therefore, we get the recursive expression from", and there is a one-line block math, and then there is a line "Therefore,", and then there are a multi-line block math. In this multi-line block math, the line before "...", change the last entry from 【 
 
 $\gamma^2{\mathrm{E}_{\pi\left(\boldsymbol\uptheta\right)}}\left[\nabla{v_{\pi\left(\boldsymbol\uptheta\right)}}\left(\mathsfit{S}_1\right)
@@ -26,7 +28,7 @@ $\gamma^2{\mathrm{E}_{\pi\left(\boldsymbol\uptheta\right)}}\left[\nabla{v_{\pi\l
 $\gamma^2{\mathrm{E}_{\pi\left(\boldsymbol\uptheta\right)}}\left[\nabla{v_{\pi\left(\boldsymbol\uptheta\right)}}\left(\mathsfit{S}_2\right)
 \right]$
 
-】. That is, change the subscript from 【1】 to 【2】. (Please notice that only the term that starts with 【$\gamma^2$】 needs to be changed.
+】. That is, change the subscript from 【1】 to 【2】. (Please notice that only the term that starts with 【 $\gamma^2$ 】 needs to be changed.
 
 - **(Feedback based on the PDF 2023-11-16.)** TOC, Section 15.1.1: The math symbol $f$ should be italic. (C.f. Other heading texts with math: Section 5.4.1, 5.4.2, 13.2.2.)
 
