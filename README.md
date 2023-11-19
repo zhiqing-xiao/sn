@@ -1,6 +1,4 @@
-Zhiqing has removed errata entries that have been corrected in the PDF attached on 2023-11-16 email.
-
-Zhiqing has noticed that the Section 4.1.1 and Section 15.2 have been updated according to the Word. Great thanks!
+Zhiqing has removed errata entries that have been corrected in the PDF attached on 2023-11-16 email. Zhiqing thanks for editors' efforts that resolve most of previous issues, as well as update Section 4.1.1 and Section 15.2 according to Word files.
 
 ----
 
@@ -10,7 +8,17 @@ Update on 2023-11-1X
 
 - **(Feedback based on the PDF 2023-11-16.)** Section 4.1.1, Fig. 4-1. I noticed that this figure is rasterized rather than vectorized. It should be vectorized. Please repaste. (Please tell me if you want me to email the source of figure again.)
 
-- Section 7.1.2, Search "Therefore, we get the recursive expression from", and there is a one-line block math, and then there is a line "Therefore,", and then there are a multi-line block math. In this multi-line block math, the line before "...", change the last entry from 【 $\gamma^2\mathrm{E}_{\pi\left(\boldsymbol\uptheta\right)}\left[\nabla{v_\pi\left(\boldsymbol\uptheta\right)}\left(\mathsfit{S}_1\right)\right]$ 】 to 【 $\gamma^2\mathrm{E}_{\pi\left(\boldsymbol\uptheta\right)}\left[\nabla{v_\pi\left(\boldsymbol\uptheta\right)}\left(\mathsfit{S}_2\right)\right]$ 】.
+- Section 7.1.2, Search "Therefore, we get the recursive expression from", and there is a one-line block math, and then there is a line "Therefore,", and then there are a multi-line block math. In this multi-line block math, the line before "...", change the last entry from 【 
+
+$\gamma^2{\mathrm{E}_{\pi\left(\boldsymbol\uptheta\right)}}\left[\nabla{v_{\pi\left(\boldsymbol\uptheta\right)}}\left(\mathsfit{S}_1\right)
+\right]$
+
+】 to 【
+
+$\gamma^2{\mathrm{E}_{\pi\left(\boldsymbol\uptheta\right)}}\left[\nabla{v_{\pi\left(\boldsymbol\uptheta\right)}}\left(\mathsfit{S}_2\right)
+\right]$
+
+】. That is, change the subscript from 【1】 to 【2】. (Please notice that only the term that starts with 【$\gamma^2$】 needs to be changed.
 
 
 ----
@@ -26,7 +34,7 @@ Update on 2023-09-XX
 
 **Update 2023-11-18** ~~Update on 2023-05-XX:~~
 
-- Section 16.6.1, 3rd paragraph, ~~Change 【`sequential`】 to 【`episodic`】. Three cases in total. After the change, the paragraph be alike: 【Code 16.1 implements the environment. The constructor of the class `TigerEnv` has a parameter `episodic`. We can deploy an episodic task by setting `episodic` as True, and deploy a sequential task by setting `episodic` to `False`.】~~ **I noticed that, the first edit also incorrectedly remove the code format. Please edit it back. That is, change** 【The constructor of the class `TigerEnv` has a paramter episodic.】 **to** 【The constructor of the class `TigerEnv` has a paramter `episodic`.】.
+- Section 16.6.1, 3rd paragraph, ~~Change 【`sequential`】 to 【`episodic`】. Three cases in total. After the change, the paragraph be alike: 【Code 16.1 implements the environment. The constructor of the class `TigerEnv` has a parameter `episodic`. We can deploy an episodic task by setting `episodic` as True, and deploy a sequential task by setting `episodic` to `False`.】~~ **I noticed that, the first edit also incorrectedly remove the code format. Please edit it back. That is, change** 【The constructor of the class `TigerEnv` has a parameter episodic.】 **to** 【The constructor of the class `TigerEnv` has a parameter `episodic`.】.
 
 **Update 2023-11-18** ~~Update on 2023-04-27:~~
 
