@@ -12,23 +12,17 @@ Update on 2023-11-1X
 
 - **(Feedback based on the PDF 2023-11-16.)** Section 4.1.1, Fig. 4-1. I noticed that this figure is rasterized rather than vectorized. It should be vectorized. Please repaste. (Please tell me if you want me to email the source of figure again.)
 
-- **(Feedback based on the PDF 2023-11-16.)** Section 4.1.1, 2nd paragraph: Change 【the estimate of values based on the first $c$ samples is ...】 to 【the estimate of values based on the first $c$ samples is $\bar{g}_c=\frac{1}{c}\sum\nolimits_{i=1}^c{g_i}$ .】 The inline latex codes are `$\bar{g}_c=\frac{1}{c}\sum\nolimits_{i=1}^c{g_i}$`. There should not be any new line changes around the equation.
+- **(Feedback based on the PDF 2023-11-16.)** Section 4.1.1, 2nd paragraph: Change 【the estimate of values based on the first $c$ samples is ...】 to 【the estimate of values based on the first $c$ samples is $\bar{g}_ c=\frac{1}{c}\sum\nolimits_{i=1}^c{g_i}$ .】 The inline latex codes are `$\bar{g}_c=\frac{1}{c}\sum\nolimits_{i=1}^c{g_i}$`. There should not be any new line changes around the equation.
 
 - Section 4.1.1, Interdisciplinary Reference 4.2, Search "Taking the expectation on the condition of", the block math after this line: Change 【 $=-2{\alpha_k}\left(X_{k-1}-x_\ast\right)f\left(X_{k-1}\right)+\alpha_k^2\mathrm{E}\left[\left|{F{{\left(X_{k-1}\right)}^2}}\right|\mid{X_{k-1}}\right]$ 】 to 【 $=-2{\alpha_k}\left(X_{k-1}-x_\ast\right)f\left(X_{k-1}\right)+\alpha_k^2\mathrm{E}\left[\left|{F{{\left(X_{k-1}\right)}}}\right|^2\mid{X_{k-1}}\right]$ 】
 
 - Chapter 5, Body Text, First Line: Change 【 Temporal Different 】 to 【 Temporal Difference 】.
 
-- Section 7.1.2, Search "Therefore, we get the recursive expression from", and there is a one-line block math, and then there is a line "Therefore,", and then there are a multi-line block math. In this multi-line block math, the line before "...", change the last entry from 【 
+- Section 5.1, Search 【 terminal state. (The letter D stand 】 and change it to 【 terminal state. (The letter D stand 】. That is, remove the period after the word "state".
 
-$\gamma^2{\mathrm{E}_{\pi\left(\boldsymbol\uptheta\right)}}\left[\nabla{v_{\pi\left(\boldsymbol\uptheta\right)}}\left(\mathsfit{S}_1\right)
-\right]$
+- **(Feedback based on the PDF 2023-11-16.)** Section 5.4.2, Second paragraph, the third line: Change 【 $q\left(\mathsfit{S}_ {t-n},\mathsfit{A}_ {t-n}\right)$ or ( $v\left(\mathsfit{S}_ {t-n}\right)$ ) 】 to 【 $q\left(\mathsfit{S}_ {t-n},\mathsfit{A}_ {t-n}\right)$ (or $v\left(\mathsfit{S}_ {t-n}\right)$ ) 】. That is, move the word "or" inside the brackets.
 
-】 to 【
-
-$\gamma^2{\mathrm{E}_{\pi\left(\boldsymbol\uptheta\right)}}\left[\nabla{v_{\pi\left(\boldsymbol\uptheta\right)}}\left(\mathsfit{S}_2\right)
-\right]$
-
-】. That is, change the subscript from 【1】 to 【2】. (Please notice that only the term that starts with 【 $\gamma^2$ 】 needs to be changed.
+- Section 7.1.2, Search "Therefore, we get the recursive expression from", and there is a one-line block math, and then there is a line "Therefore,", and then there are a multi-line block math. In this multi-line block math, the line before "...", change the last entry from 【 $\gamma^2{\mathrm{E}_ {\pi\left(\boldsymbol\uptheta\right)}}\left[\nabla{v_ {\pi\left(\boldsymbol\uptheta\right)}}\left(\mathsfit{S}_ 1\right)\right]$ 】 to 【 $\gamma^2{\mathrm{E}_ {\pi\left(\boldsymbol\uptheta\right)}}\left[\nabla{v_ {\pi\left(\boldsymbol\uptheta\right)}}\left(\mathsfit{S}_ 2\right)\right]$ 】. That is, change the subscript from 【1】 to 【2】. (Please notice that only the term that starts with 【 $\gamma^2$ 】 needs to be changed.
 
 - **(Feedback based on the PDF 2023-11-16.)** TOC, Section 15.1.1: The math symbol $f$ should be italic. (C.f. Other heading texts with math: Section 5.4.1, 5.4.2, 13.2.2.)
 
