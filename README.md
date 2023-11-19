@@ -24,6 +24,14 @@ Update on 2023-11-1X
 
 - Section 7.1.2, Search "Therefore, we get the recursive expression from", and there is a one-line block math, and then there is a line "Therefore,", and then there are a multi-line block math. In this multi-line block math, the line before "...", change the last entry from 【 $\gamma^2{\mathrm{E}_ {\pi\left(\boldsymbol\uptheta\right)}}\left[\nabla{v_ {\pi\left(\boldsymbol\uptheta\right)}}\left(\mathsfit{S}_ 1\right)\right]$ 】 to 【 $\gamma^2{\mathrm{E}_ {\pi\left(\boldsymbol\uptheta\right)}}\left[\nabla{v_ {\pi\left(\boldsymbol\uptheta\right)}}\left(\mathsfit{S}_ 2\right)\right]$ 】. That is, change the subscript from 【1】 to 【2】. (Please notice that only the term that starts with 【 $\gamma^2$ 】 needs to be changed.
 
+- **(Feedback based on the PDF 2023-11-16.)** Section 8.4.1, Interdisciplinary Reference 8.5. It is unacceptable to format 【 $d_ \mathrm{KL}\left(p\left(\boldsymbol\uptheta_k\right)||p\left(\boldsymbol\uptheta\right)\right)$ 】 as 【 $d_ \mathrm{KL}$ ( $p\left(\boldsymbol\uptheta_k\right)||p\left(\boldsymbol\uptheta\right)$ ) 】. All "()" should be included in math. (There are $\ge7$ occurance in this block.)
+
+- **(Feedback based on the PDF 2023-11-16.)** Section 8.4.3, Algorithm 8.8, Step 1. 【 $\rho\leftarrow \mathbf{r}^T\mathbf{r}$ 】 should be 【 $\rho\leftarrow \mathbf{r}^\mathrm{T}\mathbf{r}$ 】. That is, the letter "T" should not be italic.
+
+- **(Feedback based on the PDF 2023-11-16.)** Section 8.6, Second paragraph, just before the block equation. 【 acceleration ${\ddot\varTheta'}_t$ and ${\ddot\varTheta''}_t$ as 】 should be 【 acceleration $\ddot\varTheta'_t$ and $\ddot\varTheta''_t$ as 】. That is, the subscript $t$ should be closer to $\ddot\varTheta$. Reference latex codes: `$\ddot\varTheta'_t$` and `$\ddot\varTheta''_t$`.
+
+- **(Feedback based on the PDF 2023-11-16.)** Section 9.3.2, Second & Third paragraphs: There two parameters should be two bullet entries.
+  
 - **(Feedback based on the PDF 2023-11-16.)** TOC, Section 15.1.1: The math symbol $f$ should be italic. (C.f. Other heading texts with math: Section 5.4.1, 5.4.2, 13.2.2.)
 
 
