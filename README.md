@@ -4,15 +4,17 @@ Zhiqing has removed errata entries that have been corrected in the PDF attached 
 
 Update on 2023-11-1X
 
+- **(Feedback based on the PDF 2023-11-16.)** Section 1.6.2, Section 11.3.1: When codes are immediately followed by "Online Contents", could you please add a new blank line without background color, so that the two blocks can be apart visually?
+
+- Chapter 2, Body Text, the first line: Change 【the most famous, the most classical, and most important】 to 【the most famous, most classical, and most important】. That is, remove the second "the".
+
 - **(Feedback based on the PDF 2023-11-16.)** Section 3.5, the Author Query "AU1": Let me explain it: I meant that, the "quotation marks" in codes needs to be straight quotation marks, rather than left quotation marks or right quotation marks. Example: `"`. You can either use single quotation marks (i.e. `'`) or double quotation marks (i.e. `"`), but please be consistent within the whole paragraph.
 
 - **(Feedback based on the PDF 2023-11-16.)** Section 4.1.1, Fig. 4-1. I noticed that this figure is rasterized rather than vectorized. It should be vectorized. Please repaste. (Please tell me if you want me to email the source of figure again.)
 
-- **(Feedback based on the PDF 2023-11-16.)** Section 1.6.2, Section 11.3.1: When codes are immediately followed by "Online Contents", could you please add a new blank line without background color, so that the two blocks can be apart visually?
+- **(Feedback based on the PDF 2023-11-16.)** Section 4.1.1, 2nd paragraph: Change 【the estimate of values based on the first $c$ samples is ...】 to 【the estimate of values based on the first $c$ samples is $\bar{g}_c=\frac{1}{c}\sum\nolimits_{i=1}^c{g_i}$ .】 The inline latex codes are `$\bar{g}_c=\frac{1}{c}\sum\nolimits_{i=1}^c{g_i}$`. There should not be any new line changes around the equation.
 
-- **(Feedback based on the PDF 2023-11-16.)** TOC, Section 15.1.1: The math symbol $f$ should be italic. (C.f. Other heading texts with math: Section 5.4.1, 5.4.2, 13.2.2.)
-
-- Chapter 2, Body Text, the first line: Change 【the most famous, the most classical, and most important】 to 【the most famous, most classical, and most important】. That is, remove the second "the".
+- Section 4.1.1, Interdisciplinary Reference 4.2, Search "Taking the expectation on the condition of", the block math after this line: Change 【 $=-2{\alpha_k}\left(X_{k-1}-x_\ast\right)f\left(X_{k-1}\right)+\alpha_k^2\mathrm{E}\left[\left|{F{{\left(X_{k-1}\right)}^2}}\right|\mid{X_{k-1}}\right]$ 】 to 【 $=-2{\alpha_k}\left(X_{k-1}-x_\ast\right)f\left(X_{k-1}\right)+\alpha_k^2\mathrm{E}\left[\left|{F{{\left(X_{k-1}\right)}}}\right|^2\mid{X_{k-1}}\right]$ 】
 
 - Section 7.1.2, Search "Therefore, we get the recursive expression from", and there is a one-line block math, and then there is a line "Therefore,", and then there are a multi-line block math. In this multi-line block math, the line before "...", change the last entry from 【 
 
@@ -25,6 +27,8 @@ $\gamma^2{\mathrm{E}_{\pi\left(\boldsymbol\uptheta\right)}}\left[\nabla{v_{\pi\l
 \right]$
 
 】. That is, change the subscript from 【1】 to 【2】. (Please notice that only the term that starts with 【$\gamma^2$】 needs to be changed.
+
+- **(Feedback based on the PDF 2023-11-16.)** TOC, Section 15.1.1: The math symbol $f$ should be italic. (C.f. Other heading texts with math: Section 5.4.1, 5.4.2, 13.2.2.)
 
 
 ----
