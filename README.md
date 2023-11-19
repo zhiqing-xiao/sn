@@ -12,7 +12,7 @@ Update on 2023-11-1X
 
 - **(Feedback based on the PDF 2023-11-16.)** Section 4.1.1, Fig. 4-1. I noticed that this figure is rasterized rather than vectorized. It should be vectorized. Please repaste. (Please tell me if you want me to email the source of figure again.)
 
-- **(Feedback based on the PDF 2023-11-16.)** Section 4.1.1, 2nd paragraph: Change 【the estimate of values based on the first $c$ samples is ...】 to 【the estimate of values based on the first $c$ samples is $\bar{g}_ c=\frac{1}{c}\sum\nolimits_{i=1}^c{g_i}$ .】 The inline latex codes are `$\bar{g}_c=\frac{1}{c}\sum\nolimits_{i=1}^c{g_i}$`. There should not be any new line changes around the equation.
+- **(Feedback based on the PDF 2023-11-16.)** Section 4.1.1, 2nd paragraph: Change 【the estimate of values based on the first $c$ samples is ...】 to 【the estimate of values based on the first $c$ samples is $\bar{g}_ c=\frac{1}{c}\sum\nolimits_{i=1}^c{g_i}$ .】 The inline latex codes are `$\bar{g}_c=\frac{1}{c}\sum\nolimits_{i=1}^c{g_i}$`.
 
 - Section 4.1.1, Interdisciplinary Reference 4.2, Search "Taking the expectation on the condition of", the block math after this line: Change 【 $=-2{\alpha_k}\left(X_{k-1}-x_\ast\right)f\left(X_{k-1}\right)+\alpha_k^2\mathrm{E}\left[\left|{F{{\left(X_{k-1}\right)}^2}}\right|\mid{X_{k-1}}\right]$ 】 to 【 $=-2{\alpha_k}\left(X_{k-1}-x_\ast\right)f\left(X_{k-1}\right)+\alpha_k^2\mathrm{E}\left[\left|{F{{\left(X_{k-1}\right)}}}\right|^2\mid{X_{k-1}}\right]$ 】
 
