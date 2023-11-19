@@ -8,6 +8,8 @@ Update on 2023-11-1X
 
 - **(Feedback based on the PDF 2023-11-16.)** Section 4.1.1, Fig. 4-1. I noticed that this figure is rasterized rather than vectorized. It should be vectorized. Please repaste. (Please tell me if you want me to email the source of figure again.)
 
+- **(Feedback based on the PDF 2023-11-16.)** Section 1.6.2, Section 11.3.1: When codes are immediately followed by "Online Contents", could you please add a new blank line without background color, so that the two blocks can be apart visually?
+
 - Section 7.1.2, Search "Therefore, we get the recursive expression from", and there is a one-line block math, and then there is a line "Therefore,", and then there are a multi-line block math. In this multi-line block math, the line before "...", change the last entry from 【 
 
 $\gamma^2{\mathrm{E}_{\pi\left(\boldsymbol\uptheta\right)}}\left[\nabla{v_{\pi\left(\boldsymbol\uptheta\right)}}\left(\mathsfit{S}_1\right)
