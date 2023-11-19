@@ -12,6 +12,8 @@ Update on 2023-11-1X
 
 - **(Feedback based on the PDF 2023-11-16.)** TOC, Section 15.1.1: The math symbol $f$ should be italic. (C.f. Other heading texts with math: Section 5.4.1, 5.4.2, 13.2.2.)
 
+- Chapter 2, Body Text, the first line: Change 【the most famous, the most classical, and most important】 to 【the most famous, most classical, and most important】. That is, remove the second "the".
+
 - Section 7.1.2, Search "Therefore, we get the recursive expression from", and there is a one-line block math, and then there is a line "Therefore,", and then there are a multi-line block math. In this multi-line block math, the line before "...", change the last entry from 【 
 
 $\gamma^2{\mathrm{E}_{\pi\left(\boldsymbol\uptheta\right)}}\left[\nabla{v_{\pi\left(\boldsymbol\uptheta\right)}}\left(\mathsfit{S}_1\right)
