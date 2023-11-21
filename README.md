@@ -31,6 +31,14 @@ Update on 2023-11-1X
 - **(Feedback based on the PDF 2023-11-16.)** Section 8.6, Second paragraph, just before the block equation. 【 acceleration ${\ddot\varTheta'}_t$ and ${\ddot\varTheta''}_t$ as 】 should be 【 acceleration $\ddot\varTheta'_t$ and $\ddot\varTheta''_t$ as 】. That is, the subscript $t$ should be closer to $\ddot\varTheta$. Reference latex codes: `$\ddot\varTheta'_t$` and `$\ddot\varTheta''_t$`.
 
 - **(Feedback based on the PDF 2023-11-16.)** Section 9.3.2, Second & Third paragraphs: There two parameters should be two bullet entries.
+
+- Section 10.1.5, Search "Taking the expectation of the above equation over the policy", the block math above this line, and the last entry of last line in this block math: Change 【 $\gamma\sum\limits_ \mathsfit{s'}{p_ {\pi\left(\boldsymbol\theta\right)}\left(\mathsfit{s'}\mid\mathsfit{s}\right)\nabla v_ {\pi\left(\boldsymbol\theta\right)}^\left(\mathrm{H}\right)\left(\mathsfit{s}\right)}$ 】 to【 $\gamma\sum\limits_\mathsfit{s'}{p_ {\pi\left(\boldsymbol\theta\right)}\left(\mathsfit{s'}\mid\mathsfit{s}\right)\nabla v_ {\pi\left(\boldsymbol\theta\right)}^\left(\mathrm{H}\right)\left(\mathsfit{s'}\right)}$ 】. (That is, add a prime sign on $\mathsfit{s}$ ).
+
+- Section 10.1.5, Search "Taking the expectation of the above equation over the policy", the block math below and the next block math (two occurances in total): Change 【 $\mathrm{E}_ {\pi\left(\boldsymbol\theta\right)}\left[\sum\limits_ \mathsfit{a}q_{\pi\left(\boldsymbol\theta\right)}^\left(\mathrm{H}\right)\left(\mathsfit{S}_ t,\mathsfit{a}\right)\nabla\pi\left(\mathsfit{a}\mid{\mathsfit{S}_ t};\boldsymbol\theta\right)\right]+\nabla\left(\alpha^\left(\mathrm{H}\right)\mathrm{H}\left[\pi\left(\cdot\mid\mathsfit{S}_ t;\boldsymbol\theta\right)\right]\right)$ 】 to 【 $\mathrm{E}_ {\pi\left(\boldsymbol\theta\right)}\left[\sum\limits_ \mathsfit{a}q_{\pi\left(\boldsymbol\theta\right)}^\left(\mathrm{H}\right)\left(\mathsfit{S}_ t,\mathsfit{a}\right)\nabla\pi\left(\mathsfit{a}\mid{\mathsfit{S}_ t};\boldsymbol\theta\right)+\nabla\left(\alpha^\left(\mathrm{H}\right)\mathrm{H}\left[\pi\left(\cdot\mid\mathsfit{S}_ t;\boldsymbol\theta\right)\right]\right)\right]$ 】.
+
+- Section 11.2, Search "resources comsuption". Change 【resources consumption】 to 【resource consumption】. That is, remove a "s".
+
+- **(Feedback based on the PDF 2023-11-16.)** Section 12.1, Search "but the details are much more complex. Here I only prove that", the inline math immediately follows: Change 【 $B_\ast$ 】 to 【 $\mathfrakit{B}_\ast$ 】.
   
 - **(Feedback based on the PDF 2023-11-16.)** TOC, Section 15.1.1: The math symbol $f$ should be italic. (C.f. Other heading texts with math: Section 5.4.1, 5.4.2, 13.2.2.)
 
