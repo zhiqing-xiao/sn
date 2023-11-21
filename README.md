@@ -40,6 +40,8 @@ Update on 2023-11-1X
 
 - **(Feedback based on the PDF 2023-11-16.)** Section 12.1, Search "but the details are much more complex. Here I only prove that", the inline math immediately follows: Change 【 $B_\ast$ 】 to 【 $\mathfrakit{B}_\ast$ 】.
 
+- **(Feedback based on the PDF 2023-11-16.)** Section 12.4, Interdisciplinary Reference 12.6. In the last three block maths (three occurance in total). The notation of loss $\ell$ should be italic. (C.f. Section 13.1, Interdisciplinary Reference 13.1, the only block math)
+
 - **(Feedback based on the PDF 2023-11-16.)** Section 12.4.2, Algo. 12-4. Step 2.2.2.3, Change 【 $U^\left(j\right)\leftarrow R+\gamma\phi\left(\mathsfit{S'},\mathsfit{A'},{\Omega'}_ {\mathrm{target}_ j}^\left(j\right);\mathbf{w}_ \mathrm{target}\right)$ 】 to 【 $U^\left(j\right)\leftarrow R+\gamma\phi\left(\mathsfit{S'},\mathsfit{A'},{\Omega'}_ \mathrm{target}^\left(j\right);\mathbf{w}_ \mathrm{target}\right)$ 】. That is, remove a subscript $j$ .
   
 - **(Feedback based on the PDF 2023-11-16.)** TOC, Section 15.1.1: The math symbol $f$ should be italic. (C.f. Other heading texts with math: Section 5.4.1, 5.4.2, 13.2.2.)
