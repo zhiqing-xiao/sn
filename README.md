@@ -2,6 +2,39 @@ Zhiqing has removed errata entries that have been corrected in the PDF attached 
 
 ----
 
+Update on 2023-11-22
+
+**The usage of the loss notation $\ell$ is not consistent. Please search and correct them.**
+
+Correct $\ell$:
+- Notation, English letter, $\ell$
+- Section 13.1, Interdisciplinary Reference 13.1, the only block math
+
+Incorrect $\ell$:
+- Section 12.4, Interdisciplinary Reference 12.6. In the last three block maths (three occurance in total). and inline texts
+- Algorithm 12.3 Step 2.2.2.4
+- Algorithm 12.4 Step 2.2.2.4
+- Algorithm 12.5 Step 2.2.2.4
+- And others
+
+**The usage of the loss notation $\mathcal{S}$ is not consistent in Section 13.3. Please search in Section 13.3 and correct them.**
+
+Correct $\mathcal{S}$:
+- Notation, English letter, $\mathcal{S}$
+
+Incorrect $\mathcal{S}$ `$\mathcal{S}$`: (Usually it was incorrected input as $\mathscr{S}$ `$\mathscr{S}$` )
+- Algorithm 13.5: Step 1.1 (x2), Step 1.2 (x2), Step  2.1.1 (x1), Step 2.1.2 (x1) (6 occurances in total)
+- Search "denote the policy to generate the trajectory": x2 in this paramgraph, x2 in the next block math
+- And others
+
+
+Update on 2023-11-22
+
+- **(Feedback based on the PDF 2023-11-16.)** Interdisciplinary Reference 13.6: the first block math, two $\epsilon$ should be italic.
+
+- **(Feedback based on the PDF 2023-11-16.)** Interdisciplinary Reference 13.6: Search "Therefore, we verify the condition of McDiarmid’s inequality": the two block maths below and the line after these two block maths: They have some unwanted space, please remove them. And the fontsize of these two block maths are smaller than expected.
+
+
 Update on 2023-11-1X
 
 - **(Feedback based on the PDF 2023-11-16.)** Section 1.6.2, Section 11.3.1: When codes are immediately followed by "Online Contents", could you please add a new blank line without background color, so that the two blocks can be apart visually?
