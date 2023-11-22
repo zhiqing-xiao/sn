@@ -4,6 +4,12 @@ Zhiqing has removed errata entries that have been corrected in the PDF attached 
 
 Update on 2023-11-22
 
+- Section 4.1.1, Algorithm 4.4, Step 2.31: Change 【2.31】 to 【2.3.1】
+
+- Section 5.5.2, Search "Error! Reference source not found." Change 【 Error! Reference source not found. 】 to 【Code 1.3】 with link.
+
+- Section 9.6, Search "Th vanilla on-policy and off-policy deterministic". Change 【 The 】 to 【 Th 】.
+
 **The usage of `\middle\vert`**
 
 Please always use `\middle\vert` for the vertical bar that match "()" and "[]", so that the height of the bar can be automatically managed by LaTeX. Example: $\Pr\left[\int_ c^d{e_ f \mathrm{d}g}\middle\vert\mathsfit{S}_ t=\mathsfit{s}_ t\right]$ and $d_\mathrm{KL}\left(\pi\left(\cdot,\cdot\right)\middle\vert\middle\vert\frac{f\left(\cdot,\cdot\right)}{g\left(\cdot,\cdot\right)}\right)$ .
