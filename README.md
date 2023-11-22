@@ -4,7 +4,7 @@ Zhiqing has removed errata entries that have been corrected in the PDF attached 
 
 Update on 2023-11-22
 
-**The usage of the loss notation $\ell$ is not consistent. Please search and correct them.**
+**The usages of the loss notation $\ell$ are not consistent. Please search and correct them.**
 
 Correct $\ell$:
 - Notation, English letter, $\ell$
@@ -17,7 +17,7 @@ Incorrect $\ell$:
 - Algorithm 12.5 Step 2.2.2.4
 - And others
 
-**The usage of the loss notation $\mathcal{S}$ is not consistent in Section 13.3. Please search in Section 13.3 and correct them.**
+**The usages of the state space notation $\mathcal{S}$ are not consistent in Section 13.3. Please search in Section 13.3 and correct them.**
 
 Correct $\mathcal{S}$:
 - Notation, English letter, $\mathcal{S}$
