@@ -1,6 +1,10 @@
-Zhiqing has removed errata entries that have been corrected in the PDF attached on 2023-11-16 email. Zhiqing thanks for editors' efforts that resolve most of previous issues, as well as update Section 4.1.1 and Section 15.2 according to Word files.
+Zhiqing has removed errata entries that have been corrected in the PDF attached on 2023-11-16 email. Zhiqing thanks for editors' efforts that resolve most of previous issues.
 
 ----
+
+Update on 2023-11-23
+
+- **One more items about indentation:** **(Feedback based on the PDF 2023-11-16.)** For the first paragraph in every chapter: Currently only Chapter 10 has first-line indentation but other chapters are not. Let us make it consistent. Say, remove the first-line indentation in chapter 10.
 
 Update on 2023-11-22
 
