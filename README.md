@@ -52,7 +52,7 @@ Update on 2023-11-22
 
 Update on 2023-11-1X
 
-- **(Feedback based on the PDF 2023-11-16.)** Section 1.6.2, Section 11.3.1: When codes are immediately followed by "Online Contents", could you please add a new blank line without background color, so that the two blocks can be apart visually?
+- **(Feedback based on the PDF 2023-11-16.)** Section 1.6.2, Section 11.3.1: When codes are immediately followed by "Online Contents", could you please add a new blank line without background color, so that the two blocks can be apart visually? **And please remove the first-line indentation of "Online Contents".** (C.f. Online contents in Section 4.3.1 and 12.6.3)
 
 - Chapter 2, Body Text, the first line: Change 【the most famous, the most classical, and most important】 to 【the most famous, most classical, and most important】. That is, remove the second "the".
 
