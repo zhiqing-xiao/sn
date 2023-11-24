@@ -2,6 +2,15 @@ Zhiqing has removed errata entries that have been corrected in the PDF attached 
 
 ----
 
+### Updated errata after PDFs on 2023-11-23.
+
+- Section 6.2, first line: Change 【Funding】 to 【Finding】.
+
+----
+
+### Updated errata items that have been marked in PDFs sent on 2023-11-23.
+
+
 Update on 2023-11-23
 
 - **One more items about indentation:** **(Feedback based on the PDF 2023-11-16.)** For the first paragraph in every chapter: Currently only Chapter 10 has first-line indentation but other chapters are not. Let us make it consistent. Say, remove the first-line indentation in chapter 10.
