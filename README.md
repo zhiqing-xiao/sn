@@ -12,7 +12,7 @@ Update on 2023-11-22
 
 - **(Feedback based on the PDF 2023-11-16.)** Section 5.5.2, Search "Error! Reference source not found." Change 【 Error! Reference source not found. 】 to 【Code 1.3】 with link.
 
-- **(Feedback based on the PDF 2023-11-16.)** Section 9.6, Search "Th vanilla on-policy and off-policy deterministic". Change 【 The 】 to 【 Th 】.
+- **(Feedback based on the PDF 2023-11-16.)** Section 9.6, Search "Th vanilla on-policy and off-policy deterministic". Change 【 Th 】 to 【 The 】.
 
 
 **The usage of `\middle\vert`**
