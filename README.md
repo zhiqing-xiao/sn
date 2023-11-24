@@ -8,7 +8,7 @@ Zhiqing has removed errata entries that have been corrected in the PDF attached 
 
 ----
 
-### Updated errata items that have been marked in PDFs sent on 2023-11-23.
+### Errata items that have been marked in PDFs sent on 2023-11-23.
 
 
 Update on 2023-11-23
