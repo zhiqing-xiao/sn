@@ -6,6 +6,8 @@ Zhiqing has removed errata entries that have been corrected in the PDF attached 
 
 - Section 6.2, first line: Change 【Funding】 to 【Finding】.
 
+- Section 6.3.2, the first bullet group, the last bullet entry. Search 【. and the next state】. Change 【. and】 to 【, and】. That is, change the periods to commas. (two occurances)
+
 ----
 
 ### Errata items that have been marked in PDFs sent on 2023-11-23.
