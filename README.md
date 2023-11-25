@@ -2,7 +2,9 @@ Zhiqing has removed errata entries that have been corrected in the PDF attached 
 
 ----
 
-### Updated errata after PDFs on 2023-11-23.
+### All following contents have been included in the PDF 2023-11-25.
+
+#### Updated errata after PDFs on 2023-11-23.
 
 - Section 6.2, first line: Change 【Funding】 to 【Finding】.
 
@@ -17,7 +19,7 @@ Zhiqing has removed errata entries that have been corrected in the PDF attached 
 
 ----
 
-### Errata items that have been marked in PDFs sent on 2023-11-23.
+#### Errata items that have been marked in PDFs sent on 2023-11-23.
 
 
 Update on 2023-11-23
