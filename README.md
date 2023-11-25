@@ -8,6 +8,13 @@ Zhiqing has removed errata entries that have been corrected in the PDF attached 
 
 - Section 6.3.2, the first bullet group, the last bullet entry. Search 【. and the next state】. Change 【. and】 to 【, and】. That is, change the periods to commas. (two occurances)
 
+- **(Feedback based on the PDF 2023-11-16.)** Section 12.4.3, the 4th math block: Change 【 $\upvarphi_X=$ 】 to 【 $\boldsymbol\upphi_X=$ 】, and change 【 $\boldsymbol{\Updelta}\upomega$ 】 to 【 $\boldsymbol{\Updelta\upomega}$ 】 (That is, `\boldsymbol` the `\upomega`).
+
+- **(Feedback based on the PDF 2023-11-16.)** Section 13.3, Interdisciplinary Reference 13.5: the proof between "Interdisciplinary Reference 13.5" and "Interdisciplinary Reference 13.5" should belong to "Interdisciplinary Reference 13.5".
+
+- **(Feedback based on the PDF 2023-11-16.)** Section 14.1.5, Algorithm 14.3, Step 2.1. Change 【 terminal state indicator $\mathsfit{D'}$ 】 to 【 terminal state indicator $D'$ 】. That is, remove `\mathsfit` for $D'$.
+
+
 ----
 
 ### Errata items that have been marked in PDFs sent on 2023-11-23.
