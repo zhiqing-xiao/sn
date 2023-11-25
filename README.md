@@ -48,7 +48,7 @@ Incorrect $\ell$:
 - Algorithm 12.3 Step 2.2.2.4
 - Algorithm 12.4 Step 2.2.2.4
 - Algorithm 12.5 Step 2.2.2.4
-- Section 14.1.5, 2nd paragraph (two occurances)
+- Section 14.1.5 ($\ge 5$ occurances)
 - And others
 
 **The usages of the state space notation $\mathcal{S}$ are not consistent in Section 13.3. Please search in Section 13.3 and correct them.**
