@@ -2,6 +2,12 @@ Zhiqing has removed errata entries that have been corrected in the PDF attached 
 
 ----
 
+### Entries in this session have not been included in the PDF 2023-11-25.
+
+- Section 13.3, Interdisciplinary Reference 13.6, PDF page 446, first block math (which has 5 lines), the middle line: Change 【 $=1-{\left({\mathrm{E}\left[\mathbf{\hat{p}}_ i\left(X_ i\right)\right]}\right)^\mathrm{T}}\mathbf{p}+\left\|\mathbf{p}\right\|_ 2^2$ 】 to 【 $=1-2{\left({\mathrm{E}\left[\mathbf{\hat{p}}_ i\left(X_ i\right)\right]}\right)^\mathrm{T}}\mathbf{p}+\left\|\mathbf{p}\right\|_ 2^2$ 】. That is, add a 【2】.
+
+----
+
 ### All following contents have been included in the PDF 2023-11-25.
 
 #### Updated errata after PDFs on 2023-11-23.
