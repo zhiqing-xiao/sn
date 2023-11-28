@@ -6,6 +6,14 @@ Zhiqing has removed errata entries that have been corrected in the PDF attached 
 
 - Section 13.3, Interdisciplinary Reference 13.6, PDF page 446, first block math (which has 5 lines), the middle line: Change 【 $=1-{\left({\mathrm{E}\left[\mathbf{\hat{p}}_ i\left(X_ i\right)\right]}\right)^\mathrm{T}}\mathbf{p}+\left\|\mathbf{p}\right\|_ 2^2$ 】 to 【 $=1-2{\left({\mathrm{E}\left[\mathbf{\hat{p}}_ i\left(X_ i\right)\right]}\right)^\mathrm{T}}\mathbf{p}+\left\|\mathbf{p}\right\|_ 2^2$ 】. That is, add a 【2】.
 
+- Section 13.3, PDF page 448. 2nd line: Change 【 $2\exp\left(-\frac{2c_ {\kappa,t}\left(\mathsfit{s},\mathsfit{a}\right)\varepsilon^2}{t_ \max^2}\right)=\frac{1}{\left|\mathcal{S}\right|\left|\mathcal{A}\right|{k^2}t_ \max^2}$ 】 to 【 $2\exp\left(-\frac{2c_ {\kappa,t}\left(\mathsfit{s},\mathsfit{a}\right)\varepsilon^2}{g_ \max^2}\right)=\frac{1}{\left|\mathcal{S}\right|\left|\mathcal{A}\right|{k^2}t_ \max^2}$ 】 
+
+- Section 13.3, PDF page 448. 3rd line: Change 【 $\Pr\left[\left|\sum\limits_ {\mathsfit{s'}}{p_{\kappa,t}\left(\mathsfit{s'}\middle\vert\mathsfit{s},\mathsfit{a}\right)v_ \ast\left(\mathsfit{s'}\right)}-\sum\limits_ {\mathsfit{s'}}{p\left(\mathsfit{s'}\middle\vert\mathsfit{s},\mathsfit{a}\right)v_\ast\left(\mathsfit{s'}\right)}\right|
+\ge{g_ \max}\sqrt{\frac{\ln 2\left|\mathcal{S}\right|\left|\mathcal{A}\right|{k^2}t_ \max^2}{c_ {\kappa,t}\left(\mathsfit{s},\mathsfit{a}\right)}}\right]$ 】 to 【 $\Pr\left[\left|\sum\limits_ {\mathsfit{s'}}{p_{\kappa,t}\left(\mathsfit{s'}\middle\vert\mathsfit{s},\mathsfit{a}\right)v_ \ast\left(\mathsfit{s'}\right)}-\sum\limits_ {\mathsfit{s'}}{p\left(\mathsfit{s'}\middle\vert\mathsfit{s},\mathsfit{a}\right)v_\ast\left(\mathsfit{s'}\right)}\right|
+\ge{g_ \max}\sqrt{\frac{\ln 2\left|\mathcal{S}\right|\left|\mathcal{A}\right|{k^2}t_ \max^2}{2c_ {\kappa,t}\left(\mathsfit{s},\mathsfit{a}\right)}}\right]$ 】. That is, add a 【2】.
+
+- Section 13.3, PDF page 448. 5rd line: Change 【 $\sqrt{\ln 2\left|\mathcal{S}\right|\left|\mathcal{A}\right|{k^2}t_ \max^2}\le 2\sqrt{\ln\left|\mathcal{S}\right|\left|\mathcal{A}\right|{k^2}t_ \max^2}$ 】 to 【 $\sqrt{\frac{1}{2}\ln 2\left|\mathcal{S}\right|\left|\mathcal{A}\right|{k^2}t_ \max^2}\le 2\sqrt{\ln\left|\mathcal{S}\right|\left|\mathcal{A}\right|{k^2}t_ \max^2}$ 】. That is, add 【 $\frac{1}{2}$ 】
+
 ----
 
 ### All following contents have been included in the PDF 2023-11-25.
