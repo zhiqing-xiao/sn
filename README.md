@@ -4,15 +4,46 @@ Zhiqing has removed errata entries that have been corrected in the PDF attached 
 
 ### Entries in this session have not been included in the PDF 2023-11-25.
 
+
+- Section 13.2.3, PDF page 437, search "For any positive integer". Add this sentense before: 【 Let $\mathsfit{a}_ \ast$ denote the optimal action. 】 Now the bullet point becomes: 【 Let $\mathsfit{a}_ \ast$ denote the optimal action. For any positive integer $\kappa>0$ and positive integer $c_ \ast>0$, we have 】
+
+- Section 13.2.3, PDF page 437, search "Let us continue the proof. Now we conduct some preparations.". The paragraph after this sentence. Change 【 For any positive integer $c_ \mathsfit{a}\ge\underline{c}_ \kappa\left(\mathsfit{a}\right)$, we have $q\left(\mathsfit{a}_ \ast\right)\le q\left(\mathsfit{a}\right)+\sqrt{\frac{2\ln\kappa}{c_ \mathsfit{a}}}+\sqrt{\frac{2\ln\kappa }{c_ \mathsfit{a}}}$ 】 to 【 For any positive integer $c_ \mathsfit{a}>\underline{c}_ \kappa\left(\mathsfit{a}\right)$, we have $q\left(\mathsfit{a}_ \ast\right)>q\left(\mathsfit{a}\right)+\sqrt{\frac{2\ln\kappa}{c_ \mathsfit{a}}}+\sqrt{\frac{2\ln\kappa }{c_ \mathsfit{a}}}$ 】. That is, change to ">" (two occurances). And the next paragraph, change 【 $c_ \mathsfit{a}\ge\underline{c}_ \kappa\left(\mathsfit{a}\right)$ 】 to 【 $c_ \mathsfit{a}>\underline{c}_ \kappa\left(\mathsfit{a}\right)$ 】 .
+
+- Section 13.2.3, PDF page 438, the last two math blocks. Change 【 $c_\kappa\left(\mathsfit{a}\right)\ge\underline{c}_ \kappa\left(\mathsfit{a}\right)$ 】 to 【 $c_\kappa\left(\mathsfit{a}\right)>\underline{c}_ \kappa\left(\mathsfit{a}\right)$ 】. Each math block has one occurance. There are two occurances in total.
+
 - Section 13.3, Interdisciplinary Reference 13.6, PDF page 446, first block math (which has 5 lines), the middle line: Change 【 $=1-{\left({\mathrm{E}\left[\mathbf{\hat{p}}_ i\left(X_ i\right)\right]}\right)^\mathrm{T}}\mathbf{p}+\left\|\mathbf{p}\right\|_ 2^2$ 】 to 【 $=1-2{\left({\mathrm{E}\left[\mathbf{\hat{p}}_ i\left(X_ i\right)\right]}\right)^\mathrm{T}}\mathbf{p}+\left\|\mathbf{p}\right\|_ 2^2$ 】. That is, add a 【2】.
 
-- Section 13.3, PDF page 448. 2nd line: Change 【 $2\exp\left(-\frac{2c_ {\kappa,t}\left(\mathsfit{s},\mathsfit{a}\right)\varepsilon^2}{t_ \max^2}\right)=\frac{1}{\left|\mathcal{S}\right|\left|\mathcal{A}\right|{k^2}t_ \max^2}$ 】 to 【 $2\exp\left(-\frac{2c_ {\kappa,t}\left(\mathsfit{s},\mathsfit{a}\right)\varepsilon^2}{g_ \max^2}\right)=\frac{1}{\left|\mathcal{S}\right|\left|\mathcal{A}\right|{k^2}t_ \max^2}$ 】 . That is, change one 【 $t$ 】 to 【 $g$ 】.
+- Section 13.3, PDF page 448. 2nd line: Change 【 $2\exp\left(-\frac{2c_ {\kappa,t}\left(\mathsfit{s},\mathsfit{a}\right)\varepsilon^2}{t_ \max^2}\right)=\frac{1}{\left|\mathcal{S}\right|\left|\mathcal{A}\right|{k^2}t_ \max^2}$ 】 to 【 $2\exp\left(-\frac{2c_ {\kappa,t}\left(\mathsfit{s},\mathsfit{a}\right)\varepsilon^2}{g_ \max^2}\right)=\frac{1}{\left|\mathcal{S}\right|\left|\mathcal{A}\right|{k^2}t_ \max^2}$ 】. That is, change one 【 $t$ 】 to 【 $g$ 】.
 
 - Section 13.3, PDF page 448. 3rd line: Change 【 $\Pr\left[\left|\sum\limits_ {\mathsfit{s'}}{p_{\kappa,t}\left(\mathsfit{s'}\middle\vert\mathsfit{s},\mathsfit{a}\right)v_ \ast\left(\mathsfit{s'}\right)}-\sum\limits_ {\mathsfit{s'}}{p\left(\mathsfit{s'}\middle\vert\mathsfit{s},\mathsfit{a}\right)v_\ast\left(\mathsfit{s'}\right)}\right|
 \ge{g_ \max}\sqrt{\frac{\ln 2\left|\mathcal{S}\right|\left|\mathcal{A}\right|{k^2}t_ \max^2}{c_ {\kappa,t}\left(\mathsfit{s},\mathsfit{a}\right)}}\right]$ 】 to 【 $\Pr\left[\left|\sum\limits_ {\mathsfit{s'}}{p_{\kappa,t}\left(\mathsfit{s'}\middle\vert\mathsfit{s},\mathsfit{a}\right)v_ \ast\left(\mathsfit{s'}\right)}-\sum\limits_ {\mathsfit{s'}}{p\left(\mathsfit{s'}\middle\vert\mathsfit{s},\mathsfit{a}\right)v_\ast\left(\mathsfit{s'}\right)}\right|
 \ge{g_ \max}\sqrt{\frac{\ln 2\left|\mathcal{S}\right|\left|\mathcal{A}\right|{k^2}t_ \max^2}{2c_ {\kappa,t}\left(\mathsfit{s},\mathsfit{a}\right)}}\right]$ 】. That is, add a 【2】.
 
 - Section 13.3, PDF page 448. 5rd line: Change 【 $\sqrt{\ln 2\left|\mathcal{S}\right|\left|\mathcal{A}\right|{k^2}t_ \max^2}\le 2\sqrt{\ln\left|\mathcal{S}\right|\left|\mathcal{A}\right|{k^2}t_ \max^2}$ 】 to 【 $\sqrt{\frac{1}{2}\ln 2\left|\mathcal{S}\right|\left|\mathcal{A}\right|{k^2}t_ \max^2}\le 2\sqrt{\ln\left|\mathcal{S}\right|\left|\mathcal{A}\right|{k^2}t_ \max^2}$ 】. That is, add 【 $\frac{1}{2}$ 】
+
+- Section 13.3, PDF page 449-451. Multiple cases. Change all occurances in block maths of 【 $u_{\kappa,t}^{\left(v\right)}\left(\mathsfit{s'}\right)$ 】 to 【 $u_{\kappa,t+1}^{\left(v\right)}\left(\mathsfit{s'}\right)$ 】. Page 449 has 3 occurances in 3 math blocks respectively. Page 450 also changes in 2nd-4th block maths (changes of the first two block maths are more detaily shown below). Page 451 has 2 occurances in the 3rd block math and one occurance in 4th block math.
+
+- Section 13.3, PDF page 450, first block math. Change 【 $q_ {\pi_ \kappa}\left(\mathsfit{S}_ {\kappa,t},\mathsfit{A}_ {\kappa,t}\right)=r\left(\mathsfit{S}_ {\kappa,t},\mathsfit{A}_ {\kappa,t}\right)-\gamma\sum\limits_{\mathsfit{s'}}{p\left(\mathsfit{s'}\middle\vert\mathsfit{S}_ {\kappa,t},\mathsfit{A}_ {\kappa,t}\right)v_ {\pi_ \kappa}\left(\mathsfit{s'}\right)}$  】 to 【 $q_ {\pi_ \kappa}\left(\mathsfit{S}_ {\kappa,t},\mathsfit{A}_ {\kappa,t}\right)=r\left(\mathsfit{S}_ {\kappa,t},\mathsfit{A}_ {\kappa,t}\right)+\gamma\sum\limits_{\mathsfit{s'}}{p\left(\mathsfit{s'}\middle\vert\mathsfit{S}_ {\kappa,t},\mathsfit{A}_ {\kappa,t}\right)v_ {\pi_\kappa}\left(\mathsfit{s'}\right)}$ 】. That is, change $-$ to $+$.
+
+
+- Section 13.3, PDF page 450, second block math. Change 【
+
+$\quad=b_ {\kappa,t}\left(\mathsfit{S}_ {\kappa,t},\mathsfit{A}_ {\kappa,t}\right)+\gamma\left(\sum\limits_ {\mathsfit{s'}}{p_ {\kappa,t}\left(\mathsfit{s'}\middle\vert\mathsfit{S}_ {\kappa,t},\mathsfit{A}_ {\kappa,t}\right)u_ {\kappa,t}^\left(v\right)\left(\mathsfit{s'}\right)}-\sum\limits_ {\mathsfit{s'}}{p\left(\mathsfit{s'}\middle\vert\mathsfit{S}_ {\kappa,t},\mathsfit{A}_ {\kappa,t}\right)u_ {\kappa,t}^\left(v\right)\left(\mathsfit{s'}\right)}\right)$
+
+$\quad=b_ {\kappa,t}\left(\mathsfit{S}_ {\kappa,t},\mathsfit{A}_ {\kappa,t}\right)+\gamma\left(\sum\limits_ {\mathsfit{s'}}{\left(p_ {\kappa,t}\left(\mathsfit{s'}\middle\vert{\mathsfit{S}_ {\kappa,t}},\mathsfit{A}_ {\kappa,t}\right)-p\left(\mathsfit{s'}\middle\vert\mathsfit{S}_ {\kappa,t},\mathsfit{A}_ {\kappa,t}\right)\right)u_ {\kappa,t}^\left(v\right)\left(\mathsfit{s'}\right)}\right)+$
+
+$\quad\quad\gamma\sum\limits_ {\mathsfit{s'}}{p\left(\mathsfit{s'}\middle\vert\mathsfit{S}_ {\kappa,t},\mathsfit{A}_ {\kappa,t}\right)\left(u_ {\kappa,t}^\left(v\right)\left(\mathsfit{s'}\right)-v_ {\pi_ {k\kappa}}\left(\mathsfit{s'}\right)\right)}$
+
+】 to 【
+
+$\quad=b_ {\kappa,t}\left(\mathsfit{S}_ {\kappa,t},\mathsfit{A}_ {\kappa,t}\right)+\gamma\left(\sum\limits_ {\mathsfit{s'}}{p_ {\kappa,t}\left(\mathsfit{s'}\middle\vert\mathsfit{S}_ {\kappa,t},\mathsfit{A}_ {\kappa,t}\right)u_ {\kappa,t+1}^\left(v\right)\left(\mathsfit{s'}\right)}-\sum\limits_ {\mathsfit{s'}}{p\left(\mathsfit{s'}\middle\vert\mathsfit{S}_ {\kappa,t},\mathsfit{A}_ {\kappa,t}\right)v_ {\pi_ \kappa}\left(\mathsfit{s'}\right)}\right)$
+
+$\quad=b_ {\kappa,t}\left(\mathsfit{S}_ {\kappa,t},\mathsfit{A}_ {\kappa,t}\right)+\gamma\sum\limits_ {\mathsfit{s'}}{\left(p_ {\kappa,t}\left(\mathsfit{s'}\middle\vert{\mathsfit{S}_ {\kappa,t}},\mathsfit{A}_ {\kappa,t}\right)-p\left(\mathsfit{s'}\middle\vert\mathsfit{S}_ {\kappa,t},\mathsfit{A}_ {\kappa,t}\right)\right)u_ {\kappa,t+1}^\left(v\right)\left(\mathsfit{s'}\right)}+$
+
+$\quad\quad\gamma\sum\limits_ {\mathsfit{s'}}{p\left(\mathsfit{s'}\middle\vert\mathsfit{S}_ {\kappa,t},\mathsfit{A}_ {\kappa,t}\right)\left(u_ {\kappa,t+1}^\left(v\right)\left(\mathsfit{s'}\right)-v_ {\pi_ \kappa}\left(\mathsfit{s'}\right)\right)}$
+
+】. The changes include a change from $u_ {\kappa,t}^\left(v\right)$ to $v_ {\pi_ \kappa}$, remove a pair of parentheses, and remove an extra $k$ in subscript, and add two $+1$.
+
 
 ----
 
