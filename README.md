@@ -4,6 +4,9 @@ Zhiqing has removed errata entries that have been corrected in the PDF attached 
 
 ### Entries in this session have not been included in the PDF 2023-11-25.
 
+- Section 13.1, Interdisciplinary Reference 13.1, PDF Page 432, Search "real-use use". Change 【real-use use】 to 【real-world use】.
+
+- Section 13.2.3, PDF page 437, Search "0, and we have". The inline math just before it. Change 【Let $\varepsilon=\sqrt{\frac{2\ln\kappa}{c_\ast}}>0$, and we have】 to 【Let $\varepsilon=\sqrt{\frac{2\ln\kappa}{c_\mathsfit{a}}}>0$, and we have】. That is, change 【 $\ast$ 】 to 【 $\mathsfit{a}$ 】.
 
 - Section 13.2.3, PDF page 437, search "For any positive integer". Add this sentense before: 【 Let $\mathsfit{a}_ \ast$ denote the optimal action. 】 Now the bullet point becomes: 【 Let $\mathsfit{a}_ \ast$ denote the optimal action. For any positive integer $\kappa>0$ and positive integer $c_ \ast>0$, we have 】
 
