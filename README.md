@@ -47,6 +47,14 @@ $\quad\quad\gamma\sum\limits_ {\mathsfit{s'}}{p\left(\mathsfit{s'}\middle\vert\m
 
 】. The changes include a change from $u_ {\kappa,t}^\left(v\right)$ to $v_ {\pi_ \kappa}$, remove a pair of parentheses, and remove an extra $k$ in subscript, and add two $+1$.
 
+- **(Feedback based on the PDF 2023-11-16.)** Section 15.1.1, PDF page 507, Search "the environment is still driven by the initial state distribution", and the inline math immediate after should have been 【 $p_{\mathsfit{S}_0}$ 】. That is, change "S" to `\mathsfit'
+
+- **(Feedback based on the PDF 2023-11-16.)** Section 15.1.1, PDF page 514, Search "given the MDP and two policies", and the text at the same line: Chance the Chinese character 【和】 to 【 and 】. (Note that there is one space before the word "and" and one space after the word "and".)
+
+- Section 15.2.1, PDF page 523. Search "Step 3: Use the reward model in the previous step, use PPO algorithm in", immediately after that, Change 【Section 8.3.3】 as a linkable 【Sect. 8.3.3】.
+
+
+
 
 ----
 
