@@ -56,6 +56,8 @@ $\quad\quad\gamma\sum\limits_ {\mathsfit{s'}}{p\left(\mathsfit{s'}\middle\vert\m
 
 - **(Feedback based on the PDF 2023-11-16.)** Section 15.1.1, PDF page 514, Search "given the MDP and two policies", and the text at the same line: Change the Chinese character 【和】 to 【 and 】. (Note that there is one space before the word "and" and one space after the word "and".)
 
+- **(Feedback based on the PDF 2023-11-16.)** Section 15.1.1, PDF page 514, the last block math, the last line, change 【 $\uprho$ 】 to 【 $\boldsymbol\uprho$ 】.
+
 - Section 15.1.1, PDF page 515, Search "The TV distance of discounted state–action distributions is bounded by the TV distance of the policies:", the block math immediately after: Change 【 $d_ \rm{TV}\left(\rho_ {\pi'}\left(\cdot,\cdot\right)\middle\|\rho_ {\pi''}\left(\cdot,\cdot\right)\right)\le\frac{\gamma}{1-\gamma}\mathrm{E}_ {\mathsfit{S}\sim\rho_ {\pi''}}\left[d_ \rm{TV}\left(\pi'\left(\cdot\middle\vert\mathsfit{S}\right)\middle\|\pi''\left(\cdot\middle\vert\mathsfit{S}\right)\right)\right]$ 】 to 【 $d_ \rm{TV}\left(\rho_ {\pi'}\left(\cdot,\cdot\right)\middle\|\rho_ {\pi''}\left(\cdot,\cdot\right)\right)\le\frac{1}{1-\gamma}\mathrm{E}_ {\mathsfit{S}\sim\rho_ {\pi''}}\left[d_ \rm{TV}\left(\pi'\left(\cdot\middle\vert\mathsfit{S}\right)\middle\|\pi''\left(\cdot\middle\vert\mathsfit{S}\right)\right)\right]$ 】. (That is, change $\gamma$ to $1$).
 
 - Section 15.2.1, PDF page 523. Search "Step 3: Use the reward model in the previous step, use PPO algorithm in", immediately after that, Change 【Section 8.3.3】 as a linkable 【Sect. 8.3.3】.
