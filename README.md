@@ -2,7 +2,10 @@ Zhiqing has removed errata entries that have been corrected in the PDF attached 
 
 ----
 
-### Entries in this session have not been included in the PDF 2023-11-25.
+
+### The entries in this session have not been included in the PDF 2023-11-25.
+
+There are a dozen of items for Chapter 13 and Chapter 15. Maybe the easiest way is to ask Zhiqing for the updated PDF files for these two chapters.
 
 - Section 13.1, Interdisciplinary Reference 13.1, PDF Page 432, Search "real-use use". Change 【real-use use】 to 【real-world use】.
 
@@ -49,11 +52,13 @@ $\quad\quad\gamma\sum\limits_ {\mathsfit{s'}}{p\left(\mathsfit{s'}\middle\vert\m
 
 - **(Feedback based on the PDF 2023-11-16.)** Section 15.1.1, PDF page 507, Search "the environment is still driven by the initial state distribution", and the inline math immediate after should have been 【 $p_{\mathsfit{S}_0}$ 】. That is, change "S" to `\mathsfit'
 
-- **(Feedback based on the PDF 2023-11-16.)** Section 15.1.1, PDF page 514, Search "given the MDP and two policies", and the text at the same line: Chance the Chinese character 【和】 to 【 and 】. (Note that there is one space before the word "and" and one space after the word "and".)
+- Section 15.1.1, PDF page 513, The first block math, Change 【 $\ge\mathop\sup\limits_ {\psi:\mathcal{X}\to\mathbb{R}}\sum\limits_ \mathsfit{x}{q\left(\mathsfit{x}\right)\left(\psi\left(\mathsfit{x}\right)\frac{p\left(\mathsfit{x}\right)}{q\left(\mathsfit{x}\right)}-f^\ast\left(\psi\left(\mathsfit{x}\right)\right)\right)}$ 】 to 【 $=\mathop\sup\limits_ {\psi:\mathcal{X}\to\mathbb{R}}\sum\limits_ \mathsfit{x}{q\left(\mathsfit{x}\right)\left(\psi\left(\mathsfit{x}\right)\frac{p\left(\mathsfit{x}\right)}{q\left(\mathsfit{x}\right)}-f^\ast\left(\psi\left(\mathsfit{x}\right)\right)\right)}$ 】.
+
+- **(Feedback based on the PDF 2023-11-16.)** Section 15.1.1, PDF page 514, Search "given the MDP and two policies", and the text at the same line: Change the Chinese character 【和】 to 【 and 】. (Note that there is one space before the word "and" and one space after the word "and".)
+
+- Section 15.1.1, PDF page 515, Search "The TV distance of discounted state–action distributions is bounded by the TV distance of the policies:", the block math immediately after: Change 【 $d_ \rm{TV}\left(\rho_ {\pi'}\left(\cdot,\cdot\right)\middle\|\rho_ {\pi''}\left(\cdot,\cdot\right)\right)\le\frac{\gamma}{1-\gamma}\mathrm{E}_ {\mathsfit{S}\sim\rho_ {\pi''}}\left[d_ \rm{TV}\left(\pi'\left(\cdot\middle\vert\mathsfit{S}\right)\middle\|\pi''\left(\cdot\middle\vert\mathsfit{S}\right)\right)\right]$ 】 to 【 $d_ \rm{TV}\left(\rho_ {\pi'}\left(\cdot,\cdot\right)\middle\|\rho_ {\pi''}\left(\cdot,\cdot\right)\right)\le\frac{1}{1-\gamma}\mathrm{E}_ {\mathsfit{S}\sim\rho_ {\pi''}}\left[d_ \rm{TV}\left(\pi'\left(\cdot\middle\vert\mathsfit{S}\right)\middle\|\pi''\left(\cdot\middle\vert\mathsfit{S}\right)\right)\right]$ 】. (That is, change $\gamma$ to $1$).
 
 - Section 15.2.1, PDF page 523. Search "Step 3: Use the reward model in the previous step, use PPO algorithm in", immediately after that, Change 【Section 8.3.3】 as a linkable 【Sect. 8.3.3】.
-
-
 
 
 ----
