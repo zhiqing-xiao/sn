@@ -64,6 +64,20 @@ $\quad\quad\gamma\sum\limits_ {\mathsfit{s'}}{p\left(\mathsfit{s'}\middle\vert\m
 
 - Section 15.2.1, PDF page 523. Search "Step 3: Use the reward model in the previous step, use PPO algorithm in", immediately after that, Change 【Section 8.3.3】 as a linkable 【Sect. 8.3.3】.
 
+- Section 16.1.2, PDF page 545, the first block math. Change 【
+
+$=\sum\limits_ {\mathsfit{s'},\tilde r}{\tilde p\left(\mathsfit{s'},\tilde r\middle\vert\mathsfit{s},\mathsfit{a}\right)\left[\tilde r+\gamma{\tilde v}_ \pi\left(\mathsfit{s'}\right)\right]}$
+
+$=\sum\limits_ {\mathsfit{s'},r}{p\left(\mathsfit{s'},r\middle\vert\mathsfit{s},\mathsfit{a}\right)\left[r-{{\bar r}_ \pi}+\gamma{\tilde v}_ \pi\left(\mathsfit{s'}\right)\right]}$
+
+】 to 【
+
+$=\sum\limits_ {\mathsfit{s'},\tilde r}{\tilde p\left(\mathsfit{s'},\tilde r\middle\vert\mathsfit{s},\mathsfit{a}\right)\left[\tilde r+{\tilde v}_ \pi\left(\mathsfit{s'}\right)\right]}$
+
+$=\sum\limits_ {\mathsfit{s'},r}{p\left(\mathsfit{s'},r\middle\vert\mathsfit{s},\mathsfit{a}\right)\left[r-{{\bar r}_ \pi}+{\tilde v}_ \pi\left(\mathsfit{s'}\right)\right]}$
+
+】. That is, remove two $\gamma$'s.
+
 
 ----
 
