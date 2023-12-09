@@ -7,6 +7,8 @@ Zhiqing has removed errata entries that have been corrected in the PDF attached 
 
 There are a dozen of items for Chapter 13 and Chapter 15. Maybe the easiest way is to ask Zhiqing for the updated PDF files for these two chapters.
 
+- Notations, English letters, Search "Belief update operator in partially observable tasks". Delete this line. And the next line, change 【TD target; (lower case only) upper bound】 to 【TD target; (lower-case only) upper bound; (lower-case only in partially observable tasks) Belief update operator】. That is, first add a hythen in existing "lower case", and add some more texts
+
 - Section 13.1, Interdisciplinary Reference 13.1, PDF Page 432, Search "real-use use". Change 【real-use use】 to 【real-world use】.
 
 - Section 13.2.3, PDF page 437, Search "0, and we have". The inline math just before it. Change 【Let $\varepsilon=\sqrt{\frac{2\ln\kappa}{c_\ast}}>0$, and we have】 to 【Let $\varepsilon=\sqrt{\frac{2\ln\kappa}{c_\mathsfit{a}}}>0$, and we have】. That is, change 【 $\ast$ 】 to 【 $\mathsfit{a}$ 】.
