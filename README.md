@@ -11,6 +11,8 @@ There are a dozen of items for Chapter 13 and Chapter 15. Maybe the easiest way 
 
 - (Feedback based on the PDF 2023-11-16.) Section 4.1.1, Page 103, Algorithm 4.3, Step 2.31: Change 【2.31】 to 【2.3.1】
 
+- Chapter 7, PDF page 431, Search "uses the optimal value estimates". Change 【uses】 to 【use】.
+
 - Section 13.1, Interdisciplinary Reference 13.1, PDF Page 432, Search "real-use use". Change 【real-use use】 to 【real-world use】.
 
 - Section 13.2.3, PDF page 437, Search "0, and we have". The inline math just before it. Change 【Let $\varepsilon=\sqrt{\frac{2\ln\kappa}{c_\ast}}>0$, and we have】 to 【Let $\varepsilon=\sqrt{\frac{2\ln\kappa}{c_\mathsfit{a}}}>0$, and we have】. That is, change 【 $\ast$ 】 to 【 $\mathsfit{a}$ 】.
