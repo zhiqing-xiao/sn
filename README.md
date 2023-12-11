@@ -19,6 +19,8 @@ There are a dozen of items for Chapter 13 and Chapter 15. Maybe the easiest way 
 
 - Section 9.1, Page 299, the last line but two. Change 【be used anymore,】 to 【be used anymore.】 That is, change 【,】 to 【.】
 
+- Chapter 11, PDF Page 371, Search "performance different lemma". Change 【performance different lemma】 to 【performance difference lemma】.
+
 - Section 13.1, Interdisciplinary Reference 13.1, PDF Page 432, Search "real-use use". Change 【real-use use】 to 【real-world use】.
 
 - Section 13.2.3, PDF page 437, Search "0, and we have". The inline math just before it. Change 【Let $\varepsilon=\sqrt{\frac{2\ln\kappa}{c_\ast}}>0$, and we have】 to 【Let $\varepsilon=\sqrt{\frac{2\ln\kappa}{c_\mathsfit{a}}}>0$, and we have】. That is, change 【 $\ast$ 】 to 【 $\mathsfit{a}$ 】.
