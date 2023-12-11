@@ -70,6 +70,8 @@ $\quad\quad\gamma\sum\limits_ {\mathsfit{s'}}{p\left(\mathsfit{s'}\middle\vert\m
 
 - Section 15.1.1, PDF page 513, The first block math, Change 【 $\ge\mathop\sup\limits_ {\psi:\mathcal{X}\to\mathbb{R}}\sum\limits_ \mathsfit{x}{q\left(\mathsfit{x}\right)\left(\psi\left(\mathsfit{x}\right)\frac{p\left(\mathsfit{x}\right)}{q\left(\mathsfit{x}\right)}-f^\ast\left(\psi\left(\mathsfit{x}\right)\right)\right)}$ 】 to 【 $=\mathop\sup\limits_ {\psi:\mathcal{X}\to\mathbb{R}}\sum\limits_ \mathsfit{x}{q\left(\mathsfit{x}\right)\left(\psi\left(\mathsfit{x}\right)\frac{p\left(\mathsfit{x}\right)}{q\left(\mathsfit{x}\right)}-f^\ast\left(\psi\left(\mathsfit{x}\right)\right)\right)}$ 】.
 
+- Section 15.1, PDF Page 507, last line, Change 【reward signal from agent, but it can】 to 【reward signal from the environment, but it can】. That is, change 【agent】 to 【the environment】.
+
 - **(Feedback based on the PDF 2023-11-16.)** Section 15.1.1, PDF page 514, Search "given the MDP and two policies", and the text at the same line: Change the Chinese character 【和】 to 【 and 】. (Note that there is one space before the word "and" and one space after the word "and".)
 
 - **(Feedback based on the PDF 2023-11-16.)** Section 15.1.1, PDF page 514, the last block math, the last line, change 【 $\uprho$ 】 to 【 $\boldsymbol\uprho$ 】.
