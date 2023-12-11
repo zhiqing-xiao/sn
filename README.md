@@ -64,6 +64,8 @@ $\quad\quad\gamma\sum\limits_ {\mathsfit{s'}}{p\left(\mathsfit{s'}\middle\vert\m
 
 】. The changes include a change from $u_ {\kappa,t}^\left(v\right)$ to $v_ {\pi_ \kappa}$, remove a pair of parentheses, and remove an extra $k$ in subscript, and add two $+1$.
 
+- Chapter 14, PDF Page 463, Search "model input is".  Change 【model input is】 to 【model is】.
+
 - **(Feedback based on the PDF 2023-11-16.)** Section 15.1.1, PDF page 507, Search "the environment is still driven by the initial state distribution", and the inline math immediate after should have been 【 $p_{\mathsfit{S}_0}$ 】. That is, change "S" to `\mathsfit'
 
 - Section 15.1.1, PDF page 513, The first block math, Change 【 $\ge\mathop\sup\limits_ {\psi:\mathcal{X}\to\mathbb{R}}\sum\limits_ \mathsfit{x}{q\left(\mathsfit{x}\right)\left(\psi\left(\mathsfit{x}\right)\frac{p\left(\mathsfit{x}\right)}{q\left(\mathsfit{x}\right)}-f^\ast\left(\psi\left(\mathsfit{x}\right)\right)\right)}$ 】 to 【 $=\mathop\sup\limits_ {\psi:\mathcal{X}\to\mathbb{R}}\sum\limits_ \mathsfit{x}{q\left(\mathsfit{x}\right)\left(\psi\left(\mathsfit{x}\right)\frac{p\left(\mathsfit{x}\right)}{q\left(\mathsfit{x}\right)}-f^\ast\left(\psi\left(\mathsfit{x}\right)\right)\right)}$ 】.
