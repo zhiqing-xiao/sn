@@ -9,6 +9,8 @@ There are a dozen of items for Chapter 13 and Chapter 15. Maybe the easiest way 
 
 - Notations, English letters, Search "Belief update operator in partially observable tasks". Delete this line. And the next line, change 【TD target; (lower case only) upper bound】 to 【TD target; (lower-case only) upper bound; (lower-case only in distributional RL) utility; (lower-case only in partially observable tasks) Belief update operator】. That is, first add a hythen in existing "lower case", and add some more texts
 
+- Section 1.6, Search "RL algorithms are first pre-train". Change 【RL algorithms are first pre-train】 to 【RL models are first pre-trained】. That is, change "algorithms" to "models", and change "pre-train" to "pre-trained".
+ 
 - Section 3.1, Heading. Change 【Its】 to 【Their】. (TOC also needs to be changed accordingly.)
 
 - Section 3.1, PDF page 73, the last two lines: Change 【ping. Then we show that state values of policy and optimal state values are the fixed points of the Bellman equation operator and Bellman optimal operators respectively.】 to 【ping. Then we show that values of policy and optimal values are the fixed points of the Bellman expectation operator and Bellman optimal operator respectively.】. That is, remove two "state"s, change a "equation" to "expectation", and remove a "s".
