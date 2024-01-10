@@ -33,6 +33,8 @@ There are a dozen of items for Chapter 13 and Chapter 15. Maybe the easiest way 
 
 - Section 13.2.3, PDF page 438, the last two math blocks. Change 【 $c_\kappa\left(\mathsfit{a}\right)\ge\underline{c}_ \kappa\left(\mathsfit{a}\right)$ 】 to 【 $c_\kappa\left(\mathsfit{a}\right)>\underline{c}_ \kappa\left(\mathsfit{a}\right)$ 】. Each math block has one occurance. There are two occurances in total.
 
+- Section 13.2.3, Search "and it uses route on regret calculation". Change  【route】 to 【routine】.
+- 
 - Section 13.3, Interdisciplinary Reference 13.6, PDF page 446, first block math (which has 5 lines), the middle line: Change 【 $=1-{\left({\mathrm{E}\left[\mathbf{\hat{p}}_ i\left(X_ i\right)\right]}\right)^\mathrm{T}}\mathbf{p}+\left\|\mathbf{p}\right\|_ 2^2$ 】 to 【 $=1-2{\left({\mathrm{E}\left[\mathbf{\hat{p}}_ i\left(X_ i\right)\right]}\right)^\mathrm{T}}\mathbf{p}+\left\|\mathbf{p}\right\|_ 2^2$ 】. That is, add a 【2】.
 
 - Section 13.3, PDF page 448. 2nd line: Change 【 $2\exp\left(-\frac{2c_ {\kappa,t}\left(\mathsfit{s},\mathsfit{a}\right)\varepsilon^2}{t_ \max^2}\right)=\frac{1}{\left|\mathcal{S}\right|\left|\mathcal{A}\right|{k^2}t_ \max^2}$ 】 to 【 $2\exp\left(-\frac{2c_ {\kappa,t}\left(\mathsfit{s},\mathsfit{a}\right)\varepsilon^2}{g_ \max^2}\right)=\frac{1}{\left|\mathcal{S}\right|\left|\mathcal{A}\right|{k^2}t_ \max^2}$ 】. That is, change one 【 $t$ 】 to 【 $g$ 】.
