@@ -1,1 +1,3 @@
-The author is trying to generate the PDF file by himself.
+The author has submitted the PDF to editors.
+
+The author does not have further updates.
