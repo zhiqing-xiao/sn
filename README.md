@@ -1,3 +1,1 @@
-The author has submitted the PDF to editors.
-
-The author does not have further updates.
+The author noticed some typos in the submitted PDF. Please ask the author to provide the updated PDF.
