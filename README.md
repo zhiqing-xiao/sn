@@ -1,9 +1,13 @@
 After the author sent the PDF on date 2024-07-21, more errors have been found.
 
-Please ask the author to provide the updated PDF.
+The author will email an updated PDF.
 
 ----
 
 Authors’ internal records:
 
 Page 291, the last but four lines, S -> S_t (two occurrences)
+
+Sect 5.2, Sect. 10.3. monotone -> monotonically
+
+Sect 5.2.1. has not impacts -> has no impacts
