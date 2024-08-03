@@ -11,3 +11,5 @@ Page 291, the last but four lines, S -> S_t (two occurrences)
 Sect 5.2, Sect. 10.3. monotone -> monotonically
 
 Sect 5.2.1. has not impacts -> has no impacts
+
+Sect. 16.3: Add contents.
