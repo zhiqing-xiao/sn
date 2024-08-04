@@ -1,6 +1,4 @@
-After the author sent the PDF on date 2024-07-21, more errors have been found.
-
-The author will email an updated PDF.
+After the author sent the PDF on date 2024-07-21, more errors have been found. So the author sent another email on 2024-08-04.
 
 ----
 
