@@ -12,4 +12,6 @@ Sect 5.2, Sect. 10.3. monotone -> monotonically
 
 Sect 5.2.1. has not impacts -> has no impacts
 
+Sect. 8.4, Page 253: computation-intensive -> compute-intensive
+
 Sect. 16.3: Add contents.
